@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C2410C;
+  --color-primary-hover: #A8370A;
+  --color-secondary: #3B2F6B;
+  --color-secondary-hover: #2E2456;
+  --color-secondary-tint: #F1EEF8;
+  --color-text: #1C1A24;
+  --color-text-muted: #5E5A6B;
+  --color-text-on-dark: #FFFFFF;
+  --color-text-on-dark-muted: #D9D4E8;
+  --color-bg: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-border: #E4DFD7;
+  --color-success: #1F7A4D;
+  --color-warning: #B45309;
+  --color-danger: #C0262D;
+  --color-disabled-bg: #EEEBE5;
+  --color-disabled-text: #8C8797;
+  --color-focus: #C2410C;
+  --color-chart-ebay: #2563A8;
+  --color-chart-mercari: #B4235A;
+  --color-chart-kream: #1C1A24;
+  --color-chart-other: #6B7A2E;
+  --color-chart-retail: #5E5A6B;
+  --color-chart-grid: #E4DFD7;
+}
+
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Hiragino Sans", sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --shadow-card: 0 1px 2px rgba(28, 26, 36, 0.06), 0 1px 3px rgba(28, 26, 36, 0.08);
+  --shadow-raised: 0 8px 24px rgba(28, 26, 36, 0.12);
+  --border-width: 1px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+@utility text-h1 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  @media (min-width: 768px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@utility text-h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  @media (min-width: 768px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@utility text-h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@utility text-h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+@utility text-body {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+@utility text-small {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+@utility text-price-xl {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@utility text-label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+@utility tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility container-main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  @media (min-width: 768px) {
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
+  }
+  @media (min-width: 1024px) {
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
+  }
+}
+
+@utility section-gap {
+  padding-top: var(--space-7);
+  padding-bottom: var(--space-7);
+  @media (min-width: 768px) {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-8);
+  }
+  @media (min-width: 1024px) {
+    padding-top: var(--space-9);
+    padding-bottom: var(--space-9);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

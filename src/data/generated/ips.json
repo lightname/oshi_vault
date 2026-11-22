@@ -1,0 +1,407 @@
+[
+  {
+    "category": "game",
+    "goodsCount": 3,
+    "name": {
+      "en": "ポケットモンスター / Pokémon",
+      "ja": "ポケットモンスター / Pokémon",
+      "ko": "포켓몬"
+    },
+    "officialUrl": "https://www.pokemoncenter-online.com/",
+    "order": 0,
+    "original": "ポケットモンスター / Pokémon",
+    "owner": "The Pokémon Company / Nintendo",
+    "priority": 1,
+    "slug": "pokemon"
+  },
+  {
+    "category": "character",
+    "goodsCount": 3,
+    "name": {
+      "en": "サンリオキャラクターズ / Sanrio",
+      "ja": "サンリオキャラクターズ / Sanrio",
+      "ko": "산리오"
+    },
+    "officialUrl": "https://shop.sanrio.co.jp/",
+    "order": 1,
+    "original": "サンリオキャラクターズ / Sanrio",
+    "owner": "Sanrio",
+    "priority": 1,
+    "slug": "sanrio"
+  },
+  {
+    "category": "character",
+    "goodsCount": 2,
+    "name": {
+      "en": "Disney / ディズニー",
+      "ja": "Disney / ディズニー",
+      "ko": "디즈니"
+    },
+    "officialUrl": "https://store.disney.co.jp/",
+    "order": 2,
+    "original": "Disney / ディズニー",
+    "owner": "The Walt Disney Company",
+    "priority": 1,
+    "slug": "disney"
+  },
+  {
+    "category": "character",
+    "goodsCount": 3,
+    "name": {
+      "en": "ちいかわ / Chiikawa",
+      "ja": "ちいかわ / Chiikawa",
+      "ko": "치이카와"
+    },
+    "officialUrl": "https://chiikawamarket.jp/",
+    "order": 3,
+    "original": "ちいかわ / Chiikawa",
+    "owner": "Nagano / Spiral Cute",
+    "priority": 1,
+    "slug": "chiikawa"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 2,
+    "name": {
+      "en": "ONE PIECE / ワンピース",
+      "ja": "ONE PIECE / ワンピース",
+      "ko": "원피스"
+    },
+    "officialUrl": "https://store.toei-anim.co.jp/shop/ls_pages/mugiwara-store.aspx",
+    "order": 4,
+    "original": "ONE PIECE / ワンピース",
+    "owner": "Shueisha / Toei Animation",
+    "priority": 1,
+    "slug": "one-piece"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 2,
+    "name": {
+      "en": "鬼滅の刃 (Demon Slayer)",
+      "ja": "鬼滅の刃 (Demon Slayer)",
+      "ko": "귀멸의 칼날"
+    },
+    "officialUrl": "https://www.goodsmile.com/ja",
+    "order": 5,
+    "original": "鬼滅の刃 (Demon Slayer)",
+    "owner": "Shueisha / Koyoharu Gotouge / Aniplex / ufotable",
+    "priority": 1,
+    "slug": "demon-slayer"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 2,
+    "name": {
+      "en": "呪術廻戦 (Jujutsu Kaisen)",
+      "ja": "呪術廻戦 (Jujutsu Kaisen)",
+      "ko": "주술회전"
+    },
+    "officialUrl": "https://www.goodsmile.com/ja",
+    "order": 6,
+    "original": "呪術廻戦 (Jujutsu Kaisen)",
+    "owner": "Shueisha / Gege Akutami / MAPPA",
+    "priority": 1,
+    "slug": "jujutsu-kaisen"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 2,
+    "name": {
+      "en": "ドラゴンボール (Dragon Ball)",
+      "ja": "ドラゴンボール (Dragon Ball)",
+      "ko": "드래곤볼"
+    },
+    "officialUrl": "https://1kuji.com/products?search_keyword=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB",
+    "order": 7,
+    "original": "ドラゴンボール (Dragon Ball)",
+    "owner": "Bird Studio / Shueisha / Toei Animation",
+    "priority": 1,
+    "slug": "dragon-ball"
+  },
+  {
+    "category": "game",
+    "goodsCount": 2,
+    "name": {
+      "en": "スーパーマリオ (Super Mario)",
+      "ja": "スーパーマリオ (Super Mario)",
+      "ko": "슈퍼마리오(닌텐도)"
+    },
+    "officialUrl": "https://store-jp.nintendo.com/",
+    "order": 8,
+    "original": "スーパーマリオ (Super Mario)",
+    "owner": "Nintendo",
+    "priority": 1,
+    "slug": "super-mario"
+  },
+  {
+    "category": "movie",
+    "goodsCount": 2,
+    "name": {
+      "en": "Star Wars (スター・ウォーズ)",
+      "ja": "Star Wars (スター・ウォーズ)",
+      "ko": "스타워즈"
+    },
+    "officialUrl": "https://store.disney.co.jp/character/star-wars/",
+    "order": 9,
+    "original": "Star Wars (スター・ウォーズ)",
+    "owner": "Lucasfilm / Disney",
+    "priority": 1,
+    "slug": "star-wars"
+  },
+  {
+    "category": "movie",
+    "goodsCount": 0,
+    "name": {
+      "en": "Marvel (マーベル)",
+      "ja": "Marvel (マーベル)",
+      "ko": "마블"
+    },
+    "officialUrl": null,
+    "order": 10,
+    "original": "Marvel (マーベル)",
+    "owner": "Marvel Entertainment / Disney",
+    "priority": 2,
+    "slug": "marvel"
+  },
+  {
+    "category": "movie",
+    "goodsCount": 0,
+    "name": {
+      "en": "Harry Potter (ハリー・ポッター)",
+      "ja": "Harry Potter (ハリー・ポッター)",
+      "ko": "해리포터"
+    },
+    "officialUrl": null,
+    "order": 11,
+    "original": "Harry Potter (ハリー・ポッター)",
+    "owner": "Warner Bros. / J.K. Rowling",
+    "priority": 2,
+    "slug": "harry-potter"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "機動戦士ガンダム (Mobile Suit Gundam)",
+      "ja": "機動戦士ガンダム (Mobile Suit Gundam)",
+      "ko": "건담"
+    },
+    "officialUrl": null,
+    "order": 12,
+    "original": "機動戦士ガンダム (Mobile Suit Gundam)",
+    "owner": "Sotsu / Sunrise / Bandai Namco",
+    "priority": 2,
+    "slug": "mobile-suit-gundam"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "新世紀エヴァンゲリオン (Evangelion)",
+      "ja": "新世紀エヴァンゲリオン (Evangelion)",
+      "ko": "에반게리온"
+    },
+    "officialUrl": null,
+    "order": 13,
+    "original": "新世紀エヴァンゲリオン (Evangelion)",
+    "owner": "khara",
+    "priority": 2,
+    "slug": "evangelion"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "NARUTO -ナルト-",
+      "ja": "NARUTO -ナルト-",
+      "ko": "나루토"
+    },
+    "officialUrl": null,
+    "order": 14,
+    "original": "NARUTO -ナルト-",
+    "owner": "Shueisha / Masashi Kishimoto / Pierrot",
+    "priority": 2,
+    "slug": "naruto"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "進撃の巨人 (Attack on Titan)",
+      "ja": "進撃の巨人 (Attack on Titan)",
+      "ko": "진격의 거인"
+    },
+    "officialUrl": null,
+    "order": 15,
+    "original": "進撃の巨人 (Attack on Titan)",
+    "owner": "Kodansha / Hajime Isayama",
+    "priority": 2,
+    "slug": "attack-on-titan"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "チェンソーマン (Chainsaw Man)",
+      "ja": "チェンソーマン (Chainsaw Man)",
+      "ko": "체인소맨"
+    },
+    "officialUrl": null,
+    "order": 16,
+    "original": "チェンソーマン (Chainsaw Man)",
+    "owner": "Shueisha / Tatsuki Fujimoto / MAPPA",
+    "priority": 2,
+    "slug": "chainsaw-man"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "SPY×FAMILY",
+      "ja": "SPY×FAMILY",
+      "ko": "스파이패밀리"
+    },
+    "officialUrl": null,
+    "order": 17,
+    "original": "SPY×FAMILY",
+    "owner": "Shueisha / Tatsuya Endo",
+    "priority": 2,
+    "slug": "spy-family"
+  },
+  {
+    "category": "game",
+    "goodsCount": 0,
+    "name": {
+      "en": "ブルーアーカイブ (Blue Archive)",
+      "ja": "ブルーアーカイブ (Blue Archive)",
+      "ko": "블루아카이브"
+    },
+    "officialUrl": null,
+    "order": 18,
+    "original": "ブルーアーカイブ (Blue Archive)",
+    "owner": "NEXON Games / Yostar",
+    "priority": 2,
+    "slug": "blue-archive"
+  },
+  {
+    "category": "game",
+    "goodsCount": 0,
+    "name": {
+      "en": "原神 (Genshin Impact)",
+      "ja": "原神 (Genshin Impact)",
+      "ko": "원신"
+    },
+    "officialUrl": null,
+    "order": 19,
+    "original": "原神 (Genshin Impact)",
+    "owner": "HoYoverse",
+    "priority": 2,
+    "slug": "genshin-impact"
+  },
+  {
+    "category": "game",
+    "goodsCount": 0,
+    "name": {
+      "en": "ゼルダの伝説 (The Legend of Zelda)",
+      "ja": "ゼルダの伝説 (The Legend of Zelda)",
+      "ko": "젤다의 전설"
+    },
+    "officialUrl": null,
+    "order": 20,
+    "original": "ゼルダの伝説 (The Legend of Zelda)",
+    "owner": "Nintendo",
+    "priority": 3,
+    "slug": "the-legend-of-zelda"
+  },
+  {
+    "category": "game",
+    "goodsCount": 0,
+    "name": {
+      "en": "星のカービィ (Kirby)",
+      "ja": "星のカービィ (Kirby)",
+      "ko": "별의 커비"
+    },
+    "officialUrl": null,
+    "order": 21,
+    "original": "星のカービィ (Kirby)",
+    "owner": "Nintendo / HAL Laboratory",
+    "priority": 3,
+    "slug": "kirby"
+  },
+  {
+    "category": "character",
+    "goodsCount": 0,
+    "name": {
+      "en": "PEANUTS (スヌーピー)",
+      "ja": "PEANUTS (スヌーピー)",
+      "ko": "스누피(피너츠)"
+    },
+    "officialUrl": null,
+    "order": 22,
+    "original": "PEANUTS (スヌーピー)",
+    "owner": "Peanuts Worldwide",
+    "priority": 3,
+    "slug": "peanuts"
+  },
+  {
+    "category": "character",
+    "goodsCount": 0,
+    "name": {
+      "en": "リラックマ・すみっコぐらし",
+      "ja": "リラックマ・すみっコぐらし",
+      "ko": "리락쿠마·스미코구라시"
+    },
+    "officialUrl": null,
+    "order": 23,
+    "original": "リラックマ・すみっコぐらし",
+    "owner": "San-X",
+    "priority": 3,
+    "slug": "rilakkuma-sumikkogurashi"
+  },
+  {
+    "category": "character",
+    "goodsCount": 0,
+    "name": {
+      "en": "Miffy (ミッフィー)",
+      "ja": "Miffy (ミッフィー)",
+      "ko": "미피"
+    },
+    "officialUrl": null,
+    "order": 24,
+    "original": "Miffy (ミッフィー)",
+    "owner": "Mercis bv",
+    "priority": 3,
+    "slug": "miffy"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "ハイキュー!! (Haikyu!!)",
+      "ja": "ハイキュー!! (Haikyu!!)",
+      "ko": "하이큐"
+    },
+    "officialUrl": null,
+    "order": 25,
+    "original": "ハイキュー!! (Haikyu!!)",
+    "owner": "Shueisha / Haruichi Furudate",
+    "priority": 3,
+    "slug": "haikyu"
+  },
+  {
+    "category": "anime",
+    "goodsCount": 0,
+    "name": {
+      "en": "名探偵コナン (Detective Conan)",
+      "ja": "名探偵コナン (Detective Conan)",
+      "ko": "명탐정 코난"
+    },
+    "officialUrl": null,
+    "order": 26,
+    "original": "名探偵コナン (Detective Conan)",
+    "owner": "Shogakukan / Gosho Aoyama",
+    "priority": 3,
+    "slug": "detective-conan"
+  }
+]

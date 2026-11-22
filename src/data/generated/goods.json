@@ -1,0 +1,830 @@
+[
+  {
+    "code": "4970381813161",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "CHK-0001",
+    "ipSlug": "chiikawa",
+    "limit": "quantity",
+    "maker": "エンスカイ",
+    "name": {
+      "en": "",
+      "ja": "ちいかわ アニメ『ちいかわ』 キャラクリアフォト（全32種）1BOX 20個入",
+      "ko": "치이카와 애니메이션 캬라클리어포토 (전32종) 1BOX 20팩입"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "1회계당 1개 구매제한 (품절)"
+    },
+    "officialUrl": "https://chiikawamarket.jp/products/4970381813161",
+    "original": "ちいかわ アニメ『ちいかわ』 キャラクリアフォト（全32種）1BOX 20個入",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 2200
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ちいかわマーケット",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "soldout",
+    "type": "card",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "4542202670071",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "CHK-0002",
+    "ipSlug": "chiikawa",
+    "limit": "regular",
+    "maker": "ドリームズ",
+    "name": {
+      "en": "",
+      "ja": "ちいかわ HIPPERS（全7種）",
+      "ko": "치이카와 히퍼즈 데코레이션 피규어 (전7종)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "전6종+시크릿1종 (품절)"
+    },
+    "officialUrl": "https://chiikawamarket.jp/products/4542202670071",
+    "original": "ちいかわ HIPPERS（全7種）",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 1430
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ちいかわマーケット",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "soldout",
+    "type": "figure",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "CHK-0003",
+    "ipSlug": "chiikawa",
+    "limit": "lottery",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ ちいかわ ～なんかほっこり ちいかわの湯～",
+      "ko": "이치방쿠지 치이카와 ~뭔가 포근한 치이카와의 목욕탕~"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "1회 750엔 쿠지 한정 상품"
+    },
+    "officialUrl": "https://1kuji.com/products/chiikawa4",
+    "original": "一番くじ ちいかわ ～なんかほっこり ちいかわの湯～",
+    "releaseDate": "2025-09-19",
+    "retail": {
+      "currency": "JPY",
+      "price": 750
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "ended",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "1194",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "DMS-0001",
+    "ipSlug": "demon-slayer",
+    "limit": "quantity",
+    "maker": "グッドスマイルカンパニー",
+    "name": {
+      "en": "",
+      "ja": "ねんどろいど 竈門禰豆子",
+      "ko": "넨도로이드 카마도 네즈코 (3차 재판)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "1인 3점 한정 / 예약기간 2025.09.05~10.15"
+    },
+    "officialUrl": "https://www.goodsmile.com/ja/product/6433",
+    "original": "ねんどろいど 竈門禰豆子",
+    "releaseDate": "2026-01-01",
+    "retail": {
+      "currency": "JPY",
+      "price": 6200
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "グッドスマイルカンパニー公式ショップ",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "ended",
+    "type": "figure",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "DMS-0002",
+    "ipSlug": "demon-slayer",
+    "limit": "quantity",
+    "maker": "グッドスマイルカンパニー",
+    "name": {
+      "en": "",
+      "ja": "Harmonia humming 竈門禰豆子",
+      "ko": "하모니아 허밍 카마도 네즈코 도돌"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "수주 예약 생산 한정 도돌 시리즈 (Made in Japan)"
+    },
+    "officialUrl": "https://www.goodsmile.com/ja/product/9049/Harmonia+humming+%E7%AB%88%E9%96%80%E7%A6%B0%E8%B1%86%E5%AD%90",
+    "original": "Harmonia humming 竈門禰豆子",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 31500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "グッドスマイルカンパニー公式ショップ",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "ended",
+    "type": "plush",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "DRB-0001",
+    "ipSlug": "dragon-ball",
+    "limit": "lottery",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ ドラゴンボール BACK TO THE FILM",
+      "ko": "이치방쿠지 드래곤볼 BACK TO THE FILM"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "MASTERLISE 및 KINGCLUSTAR 브로리 등 극장판 피규어 라인업"
+    },
+    "officialUrl": "https://1kuji.com/products/db_bttf",
+    "original": "一番くじ ドラゴンボール BACK TO THE FILM",
+    "releaseDate": "2021-09-24",
+    "retail": {
+      "currency": "JPY",
+      "price": 680
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "ended",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "DRB-0002",
+    "ipSlug": "dragon-ball",
+    "limit": "lottery",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ ドラゴンボール HISTORY OF THE FILM",
+      "ko": "이치방쿠지 드래곤볼 HISTORY OF THE FILM"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "초사이어인 손오반·손오천·쿠우라·타레스 등 극장판 라인업"
+    },
+    "officialUrl": "https://1kuji.com/products/db_hotf",
+    "original": "一番くじ ドラゴンボール HISTORY OF THE FILM",
+    "releaseDate": "2022-08-04",
+    "retail": {
+      "currency": "JPY",
+      "price": 730
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "ended",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "4550586344730",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "DSN-0001",
+    "ipSlug": "disney",
+    "limit": "store",
+    "maker": "ウォルト・ディズニー・ジャパン",
+    "name": {
+      "en": "",
+      "ja": "【東京ディズニーリゾート店限定】ミッキー＆フレンズ シークレットキーホルダー 東京ディズニーリゾート店リニューアルオープン1周年記念",
+      "ko": "[도쿄디즈니리조트점 한정] 미키&프렌즈 시크릿 키홀더 리뉴얼 오픈 1주년 기념"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "도쿄디즈니리조트점 리뉴얼 1주년 매장 한정판 (재고없음)"
+    },
+    "officialUrl": "https://store.disney.co.jp/goods/4550586344730.html",
+    "original": "【東京ディズニーリゾート店限定】ミッキー＆フレンズ シークレットキーホルダー 東京ディズニーリゾート店リニューアルオープン1周年記念",
+    "releaseDate": "2026-07-07",
+    "retail": {
+      "currency": "JPY",
+      "price": 900
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ディズニーストア.jp",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "soldout",
+    "type": "badge",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "4550586550285",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "DSN-0002",
+    "ipSlug": "disney",
+    "limit": "regular",
+    "maker": "ウォルト・ディズニー・ジャパン",
+    "name": {
+      "en": "",
+      "ja": "ディズニーキャラクター シークレットポーチ キーホルダータイプ フェイス",
+      "ko": "디즈니 캐릭터 시크릿 파우치 키홀더 타입 페이스"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "시크릿 컬렉션 전5종"
+    },
+    "officialUrl": "https://store.disney.co.jp/goods/4550586550285.html",
+    "original": "ディズニーキャラクター シークレットポーチ キーホルダータイプ フェイス",
+    "releaseDate": "2026-10-06",
+    "retail": {
+      "currency": "JPY",
+      "price": 1500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ディズニーストア.jp",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "apparel",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "JJK-0001",
+    "ipSlug": "jujutsu-kaisen",
+    "limit": "quantity",
+    "maker": "グッドスマイルカンパニー",
+    "name": {
+      "en": "",
+      "ja": "HELLO! GOOD SMILE 五条悟 素顔Ver.",
+      "ko": "HELLO! GOOD SMILE 고죠 사토루 맨얼굴 Ver."
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "1인 3점 한정, 재고 소진 시 종료"
+    },
+    "officialUrl": "https://www.goodsmile.com/ja/product/1136674",
+    "original": "HELLO! GOOD SMILE 五条悟 素顔Ver.",
+    "releaseDate": "2026-05-01",
+    "retail": {
+      "currency": "JPY",
+      "price": 1500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "グッドスマイルカンパニー公式ショップ",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "figure",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "JJK-0002",
+    "ipSlug": "jujutsu-kaisen",
+    "limit": "lottery",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ アニメ『呪術廻戦』5周年FINAL！",
+      "ko": "이치방쿠지 애니메이션 주술회전 5주년 FINAL!"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "온라인 판매 2026-10-08 개시, 더블찬스 2026년 12월 말까지"
+    },
+    "officialUrl": "https://1kuji.com/products/jujutsu19",
+    "original": "一番くじ アニメ『呪術廻戦』5周年FINAL！",
+    "releaseDate": "2026-09-26",
+    "retail": {
+      "currency": "JPY",
+      "price": 800
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "onsale",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "VM_NSJ_8_A5AAS",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "MAR-0001",
+    "ipSlug": "super-mario",
+    "limit": "store",
+    "maker": "任天堂",
+    "name": {
+      "en": "",
+      "ja": "Tシャツ スーパーマリオワールド 【Nintendo TOKYO取り扱い商品】",
+      "ko": "티셔츠 슈퍼마리오 월드 [Nintendo TOKYO 취급상품]"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "Nintendo TOKYO 직영 스토어 취급 / 1인 10점 한정"
+    },
+    "officialUrl": "https://store-jp.nintendo.com/item/goods/VM_NSJ_8_A5AAS",
+    "original": "Tシャツ スーパーマリオワールド 【Nintendo TOKYO取り扱い商品】",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 6600
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "My Nintendo Store",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "apparel",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "VM_NSJ_8_AEABF",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "MAR-0002",
+    "ipSlug": "super-mario",
+    "limit": "store",
+    "maker": "任天堂",
+    "name": {
+      "en": "",
+      "ja": "グラス スーパーマリオ【Nintendo TOKYO取り扱い商品】",
+      "ko": "글라스 슈퍼마리오 [Nintendo TOKYO 취급상품]"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "Nintendo TOKYO 직영 스토어 취급 / 1인 10점 한정"
+    },
+    "officialUrl": "https://store-jp.nintendo.com/item/goods/VM_NSJ_8_AEABF",
+    "original": "グラス スーパーマリオ【Nintendo TOKYO取り扱い商品】",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 1100
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "My Nintendo Store",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "apparel",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "ONP-0001",
+    "ipSlug": "one-piece",
+    "limit": "collab",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ ワンピース 未来島エッグヘッド～きみへの想い～",
+      "ko": "이치방쿠지 원피스 미래섬 에그헤드 ~너를 향한 마음~ (무기와라 스토어 콜라보 포함)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "무기와라 스토어 콜라보 등상 포함 한정 쿠지"
+    },
+    "officialUrl": "https://1kuji.com/products/onep96",
+    "original": "一番くじ ワンピース 未来島エッグヘッド～きみへの想い～",
+    "releaseDate": "2025-08-01",
+    "retail": {
+      "currency": "JPY",
+      "price": 790
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "ended",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": null,
+    "codeType": null,
+    "firstCollectedAt": "2026-10-24",
+    "id": "ONP-0002",
+    "ipSlug": "one-piece",
+    "limit": "lottery",
+    "maker": "BANDAI SPIRITS",
+    "name": {
+      "en": "",
+      "ja": "一番くじ ワンピース BEYOND THE LEVEL",
+      "ko": "이치방쿠지 원피스 BEYOND THE LEVEL (루피 기어5 피규어)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "루피 기어5·로우·키드 피규어 한정 쿠지"
+    },
+    "officialUrl": "https://1kuji.com/products/onep80_2",
+    "original": "一番くじ ワンピース BEYOND THE LEVEL",
+    "releaseDate": "2024-03-15",
+    "retail": {
+      "currency": "JPY",
+      "price": 790
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "一番くじ倶楽部",
+    "sellerType": "specialty",
+    "slug": "",
+    "status": "ended",
+    "type": "kuji",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "9784824018731",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "PKM-0001",
+    "ipSlug": "pokemon",
+    "limit": "period",
+    "maker": "株式会社ポケモン / 株式会社ゲームフリーク",
+    "name": {
+      "en": "",
+      "ja": "【予約】ポケットモンスター ビジュアルアートブック BOOK1",
+      "ko": "[예약] 포켓몬스터 비주얼 아트북 BOOK1 (30주년 기념)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "30주년 기념 예약기간(2026.10.08~12.17) 1인 1점 한정"
+    },
+    "officialUrl": "https://www.pokemoncenter-online.com/9784824018731.html",
+    "original": "【予約】ポケットモンスター ビジュアルアートブック BOOK1",
+    "releaseDate": "2026-12-18",
+    "retail": {
+      "currency": "JPY",
+      "price": 5500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ポケモンセンターオンライン",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "preorder",
+    "type": "other",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "9784824018748",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "PKM-0002",
+    "ipSlug": "pokemon",
+    "limit": "period",
+    "maker": "株式会社ポケモン / 株式会社ゲームフリーク",
+    "name": {
+      "en": "",
+      "ja": "【予約】ポケットモンスター ビジュアルアートブック BOOK2",
+      "ko": "[예약] 포켓몬스터 비주얼 아트북 BOOK2 (30주년 기념)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "30주년 기념 예약기간(2026.10.08~12.17) 1인 1점 한정"
+    },
+    "officialUrl": "https://www.pokemoncenter-online.com/9784824018748.html",
+    "original": "【予約】ポケットモンスター ビジュアルアートブック BOOK2",
+    "releaseDate": "2026-12-18",
+    "retail": {
+      "currency": "JPY",
+      "price": 5500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ポケモンセンターオンライン",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "preorder",
+    "type": "other",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "9784824018755",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "PKM-0003",
+    "ipSlug": "pokemon",
+    "limit": "period",
+    "maker": "株式会社ポケモン / 株式会社ゲームフリーク",
+    "name": {
+      "en": "",
+      "ja": "【予約】ポケットモンスター ビジュアルアートブック BOOK3",
+      "ko": "[예약] 포켓몬스터 비주얼 아트북 BOOK3 (30주년 기념)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "30주년 기념 예약기간(2026.10.08~12.17) 1인 1점 한정"
+    },
+    "officialUrl": "https://www.pokemoncenter-online.com/9784824018755.html",
+    "original": "【予約】ポケットモンスター ビジュアルアートブック BOOK3",
+    "releaseDate": "2026-12-18",
+    "retail": {
+      "currency": "JPY",
+      "price": 5500
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ポケモンセンターオンライン",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "preorder",
+    "type": "other",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "219746",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "SAN-0001",
+    "ipSlug": "sanrio",
+    "limit": "regular",
+    "maker": "株式会社サンリオ",
+    "name": {
+      "en": "",
+      "ja": "マイメロディ&クロミ マイメロディ&クロミのふわふわカフェタイム",
+      "ko": "마이멜로디&쿠로미 폭신폭신 카페타임 피규어"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "전6종 시크릿 피규어"
+    },
+    "officialUrl": "https://shop.sanrio.co.jp/item/detail/1_1_2610219746_1/MMKU_-/-",
+    "original": "マイメロディ&クロミ マイメロディ&クロミのふわふわカフェタイム",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 1595
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "サンリオオンラインショップ本店",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "figure",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "715654",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "SAN-0002",
+    "ipSlug": "sanrio",
+    "limit": "regular",
+    "maker": "株式会社サンリオ",
+    "name": {
+      "en": "",
+      "ja": "クロミ マスコット付きティペット",
+      "ko": "쿠로미 마스코트 퍼 목도리(티펫)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "신상품(COMING SOON 표시)"
+    },
+    "officialUrl": "https://shop.sanrio.co.jp/item/detail/1_1_2610715603_1/KU_-/-",
+    "original": "クロミ マスコット付きティペット",
+    "releaseDate": "2026-10-22",
+    "retail": {
+      "currency": "JPY",
+      "price": 4400
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "サンリオオンラインショップ本店",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "preorder",
+    "type": "apparel",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "680613",
+    "codeType": "other",
+    "firstCollectedAt": "2026-10-24",
+    "id": "SAN-0003",
+    "ipSlug": "sanrio",
+    "limit": "regular",
+    "maker": "株式会社サンリオ",
+    "name": {
+      "en": "",
+      "ja": "クロミ シークレットマスコット（まっくろクロミモード）",
+      "ko": "쿠로미 시크릿 마스코트 (새까만 쿠로미 모드)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "새까만 쿠로미 모드 시리즈 전8종"
+    },
+    "officialUrl": "https://shop.sanrio.co.jp/item/detail/1_1_2610680613_1/KU_-/-",
+    "original": "クロミ シークレットマスコット（まっくろクロミモード）",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 990
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "サンリオオンラインショップ本店",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "plush",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "4589489792843",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "STW-0001",
+    "ipSlug": "star-wars",
+    "limit": "regular",
+    "maker": null,
+    "name": {
+      "en": "",
+      "ja": "STAR WARS マンダロリアン アートカードコレクション※全25種",
+      "ko": "스타워즈 만달로리안 아트 카드 컬렉션 (전 25종)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "만달로리안 아트 카드 컬렉션 전 25종"
+    },
+    "officialUrl": "https://store.disney.co.jp/goods/4589489792843.html",
+    "original": "STAR WARS マンダロリアン アートカードコレクション※全25種",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 550
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ディズニーストア.jp",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "onsale",
+    "type": "card",
+    "verifiedAt": "2026-10-24"
+  },
+  {
+    "code": "4589489797664",
+    "codeType": "jan13",
+    "firstCollectedAt": "2026-10-24",
+    "id": "STW-0002",
+    "ipSlug": "star-wars",
+    "limit": "regular",
+    "maker": null,
+    "name": {
+      "en": "",
+      "ja": "SW マンダロリアン・アンド・グローグー/メタリックカードコレクション※全12種",
+      "ko": "스타워즈 만달로리안 앤 그로구 메탈릭 카드 컬렉션 (전 12종)"
+    },
+    "note": {
+      "en": null,
+      "ja": null,
+      "ko": "만달로리안 앤 그로구 메탈릭 카드 전 12종 (在庫なし)"
+    },
+    "officialUrl": "https://store.disney.co.jp/goods/4589489797664.html",
+    "original": "SW マンダロリアン・アンド・グローグー/メタリックカードコレクション※全12種",
+    "releaseDate": null,
+    "retail": {
+      "currency": "JPY",
+      "price": 440
+    },
+    "review": {
+      "en": false,
+      "ja": false
+    },
+    "seller": "ディズニーストア.jp",
+    "sellerType": "official_online",
+    "slug": "",
+    "status": "soldout",
+    "type": "card",
+    "verifiedAt": "2026-10-24"
+  }
+]

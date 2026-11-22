@@ -1,0 +1,14 @@
+{
+  "root.ko.name": "한국어",
+  "root.ko.desc": "한정판 굿즈 정가와 거래가 비교",
+  "root.ko.suggest": "추천",
+  "root.ko.slogan": "내 최애 굿즈의 지금 가치",
+  "root.en.name": "English",
+  "root.en.desc": "Compare retail and sold prices of limited merch",
+  "root.en.suggest": "Suggested",
+  "root.en.slogan": "What your favorite merch is worth now",
+  "root.ja.name": "日本語",
+  "root.ja.desc": "限定グッズの定価と取引価格を比較",
+  "root.ja.suggest": "おすすめ",
+  "root.ja.slogan": "推しグッズの、いまの価値"
+}

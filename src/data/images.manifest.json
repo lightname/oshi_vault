@@ -1,0 +1,232 @@
+{
+  "IMG-01": {
+    "src": "/images/hero/home-shelf.webp",
+    "width": 1152,
+    "height": 960,
+    "alt": {
+      "ko": "진열장 선반에 놓인 피규어와 인형, 가격 태그 일러스트",
+      "en": "Illustration of figures, plush toys, and price tags on a display shelf",
+      "ja": "ディスプレイ棚に並ぶフィギュアとぬいぐるみ、値札のイラスト"
+    }
+  },
+  "IMG-02": {
+    "src": "/images/hero/root-languages.webp",
+    "width": 640,
+    "height": 400,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-03": {
+    "src": "/images/og/og-base.png",
+    "width": 1200,
+    "height": 630,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-04": {
+    "src": "/images/ip/ip-banner.webp",
+    "width": 720,
+    "height": 540,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-05": {
+    "src": "/images/empty/price-collecting.webp",
+    "width": 400,
+    "height": 400,
+    "alt": {
+      "ko": "시세를 모으고 있는 그래프 일러스트",
+      "en": "Illustration of a chart collecting price data",
+      "ja": "相場を集めているグラフのイラスト"
+    }
+  },
+  "IMG-06": {
+    "src": "/images/empty/no-results.webp",
+    "width": 400,
+    "height": 400,
+    "alt": {
+      "ko": "비어 있는 선반을 돋보기로 살펴보는 일러스트",
+      "en": "Illustration of a magnifying glass looking at an empty shelf",
+      "ja": "空の棚を虫眼鏡で見ているイラスト"
+    }
+  },
+  "IMG-07": {
+    "src": "/images/hero/scan-barcode.webp",
+    "width": 960,
+    "height": 720,
+    "alt": {
+      "ko": "휴대폰으로 굿즈 상자의 바코드를 비추는 일러스트",
+      "en": "Illustration of a phone scanning a barcode on a merch box",
+      "ja": "スマートフォンでグッズの箱のバーコードを読み取るイラスト"
+    }
+  },
+  "IMG-08": {
+    "src": "/images/empty/empty-shelf.webp",
+    "width": 480,
+    "height": 480,
+    "alt": {
+      "ko": "비어 있는 진열장 선반 일러스트",
+      "en": "Illustration of an empty display shelf",
+      "ja": "空のディスプレイ棚のイラスト"
+    }
+  },
+  "IMG-09": {
+    "src": "/images/empty/empty-wishlist.webp",
+    "width": 480,
+    "height": 480,
+    "alt": {
+      "ko": "하트 표시가 달린 빈 태그와 목표 깃발 일러스트",
+      "en": "Illustration of a blank heart tag and a target flag",
+      "ja": "ハート付きの空のタグと目標フラグのイラスト"
+    }
+  },
+  "IMG-10": {
+    "src": "/images/hero/share-card-intro.webp",
+    "width": 720,
+    "height": 540,
+    "alt": {
+      "ko": "3×3 격자 카드가 휴대폰 화면에서 튀어나오는 일러스트",
+      "en": "Illustration of a 3x3 grid card popping out of a phone screen",
+      "ja": "3×3グリッドカードがスマホ画面から飛び出すイラスト"
+    }
+  },
+  "IMG-11": {
+    "src": "/images/guides/guides-banner.webp",
+    "width": 720,
+    "height": 540,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-12": {
+    "src": "/images/guides/cover-default.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-13": {
+    "src": "/images/guides/cover-how-to-check-resale-price.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "여러 마켓의 가격표를 비교하는 일러스트",
+      "en": "Illustration comparing price tags across multiple markets",
+      "ja": "複数のマーケットの値札を比較するイラスト"
+    }
+  },
+  "IMG-14": {
+    "src": "/images/guides/cover-find-barcode-product-code.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "상자 옆면의 바코드를 돋보기로 보는 일러스트",
+      "en": "Illustration viewing a barcode on the side of a box with a magnifying glass",
+      "ja": "箱の側面のバーコードを虫眼鏡で見るイラスト"
+    }
+  },
+  "IMG-15": {
+    "src": "/images/guides/cover-limited-edition-types.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "서로 다른 표식이 붙은 한정판 상자들 일러스트",
+      "en": "Illustration of limited edition boxes with different symbols",
+      "ja": "異なるマークが付いた限定版の箱のイラスト"
+    }
+  },
+  "IMG-16": {
+    "src": "/images/guides/cover-ways-to-buy-japan-exclusive.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "상자가 여러 경로로 배송되는 일러스트",
+      "en": "Illustration of a box shipped through multiple routes",
+      "ja": "箱が複数のルートで配送されるイラスト"
+    }
+  },
+  "IMG-17": {
+    "src": "/images/guides/cover-how-to-read-prices.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": {
+      "ko": "막대 그래프 가운데에 표시가 있는 일러스트",
+      "en": "Illustration of a bar chart with the middle bar highlighted",
+      "ja": "棒グラフの中央に印が付いたイラスト"
+    }
+  },
+  "IMG-18": {
+    "src": "/images/hero/about-data.webp",
+    "width": 720,
+    "height": 540,
+    "alt": {
+      "ko": "여러 출처의 데이터가 하나의 표로 모이는 일러스트",
+      "en": "Illustration of data from multiple sources gathering into one table",
+      "ja": "複数の出典のデータが1つの表に集まるイラスト"
+    }
+  },
+  "IMG-19": {
+    "src": "/images/hero/legal.webp",
+    "width": 480,
+    "height": 360,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-20": {
+    "src": "/images/empty/not-found.webp",
+    "width": 480,
+    "height": 480,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-21": {
+    "src": "/images/hero/calculator.webp",
+    "width": 720,
+    "height": 540,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-22": {
+    "src": "/images/brand/subscribe-mail.webp",
+    "width": 192,
+    "height": 192,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  },
+  "IMG-23": {
+    "src": "/images/share/card-bg.webp",
+    "width": 1080,
+    "height": 1350,
+    "alt": {
+      "ko": "",
+      "en": "",
+      "ja": ""
+    }
+  }
+}
