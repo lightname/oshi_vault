@@ -18,13 +18,14 @@ describe('S-08 WishlistView', () => {
     _resetStoreForTest();
   });
 
-  it('renders empty state when wishlist is empty', async () => {
+  it('renders empty state and subscribe section when wishlist is empty', async () => {
     render(<WishlistView lang="ko" dict={dict} />);
     expect(await screen.findByText(dict['wish.emptyTitle'])).toBeInTheDocument();
     expect(screen.getByRole('link', { name: dict['wish.emptyCta'] })).toHaveAttribute(
       'href',
       expect.stringMatching(/^\/ko\/ip\/?$/)
     );
+    expect(screen.getByRole('button', { name: dict['cta.secondary'] })).toBeInTheDocument();
   });
 
   it('validates target price, persists valid target, and promotes reached items', async () => {

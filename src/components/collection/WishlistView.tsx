@@ -138,16 +138,20 @@ export function WishlistView({ lang, dict }: Props) {
                   ))}
                 </ul>
               </section>
-
-              <SubscribeBox
-                lang={lang}
-                dict={dict}
-                topic="target_price"
-                watches={computed.watches}
-              />
             </div>
           ) : null}
         </ClientSection>
+
+        {status === 'ready' ? (
+          <div className="mt-(--space-6)">
+            <SubscribeBox
+              lang={lang}
+              dict={dict}
+              topic="target_price"
+              watches={computed?.watches ?? []}
+            />
+          </div>
+        ) : null}
       </div>
     </div>
   );
