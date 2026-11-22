@@ -22,20 +22,33 @@ describe('SEO indexing rules (C-29)', () => {
   it('evaluates goodsComplete and goodsIndexable across index levels', () => {
     const reviewedBoth = fixtureGoods[0];
     const unreviewed = fixtureGoods[1];
-    const incomplete = fixtureGoods[3];
+    const noEnName = fixtureGoods[3];
+    const missingKo = { ...fixtureGoods[3], name: { ...fixtureGoods[3].name, ko: '' } };
+    const missingJa = { ...fixtureGoods[3], name: { ...fixtureGoods[3].name, ja: '' } };
+    const zeroPrice = { ...fixtureGoods[3], retail: { ...fixtureGoods[3].retail, price: 0 } };
+    const reviewedNoEn = { ...fixtureGoods[3], review: { en: true, ja: true } };
 
     expect(goodsComplete(reviewedBoth)).toBe(true);
-    expect(goodsComplete(incomplete)).toBe(false);
+    expect(goodsComplete(reviewedBoth, 'en')).toBe(true);
+    expect(goodsComplete(noEnName)).toBe(true);
+    expect(goodsComplete(noEnName, 'ko')).toBe(true);
+    expect(goodsComplete(noEnName, 'en')).toBe(false);
+    expect(goodsComplete(missingKo)).toBe(false);
+    expect(goodsComplete(missingJa)).toBe(false);
+    expect(goodsComplete(zeroPrice)).toBe(false);
 
     mutableSeo.indexLevel = 1;
     expect(goodsIndexable(reviewedBoth, 'ko')).toBe(true);
     expect(goodsIndexable(reviewedBoth, 'en')).toBe(true);
     expect(goodsIndexable(unreviewed, 'ko')).toBe(true);
     expect(goodsIndexable(unreviewed, 'en')).toBe(false);
-    expect(goodsIndexable(incomplete, 'ko')).toBe(false);
+    expect(goodsIndexable(noEnName, 'ko')).toBe(true);
+    expect(goodsIndexable(reviewedNoEn, 'en')).toBe(false);
+    expect(goodsIndexable(reviewedNoEn, 'ja')).toBe(true);
+    expect(goodsIndexable(missingKo, 'ko')).toBe(false);
 
     mutableSeo.indexLevel = 3;
-    expect(goodsIndexable(incomplete, 'en')).toBe(true);
+    expect(goodsIndexable(missingKo, 'en')).toBe(true);
   });
 
   it('evaluates IP hub, type page, guides, and lastmod override', () => {
