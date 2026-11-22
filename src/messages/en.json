@@ -267,5 +267,10 @@
   "about.limitsBody3": "With few sales, prices may differ from actual deals.",
   "about.unofficialTitle": "Unofficial notice",
   "meta.about.title": "Data sources and methods",
-  "meta.about.description": "Where Oshi Vault's retail and sold prices come from, how premiums are calculated, and update limits."
+  "meta.about.description": "Where Oshi Vault's retail and sold prices come from, how premiums are calculated, and update limits.",
+  "legal.privacy": "Privacy policy",
+  "legal.terms": "Terms of use",
+  "legal.effective": "Effective {date}",
+  "meta.privacy.description": "How Oshi Vault handles personal data and email subscription information.",
+  "meta.terms.description": "Terms and data usage scope for using Oshi Vault."
 }

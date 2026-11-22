@@ -267,5 +267,10 @@
   "about.limitsBody3": "取引件数が少ないと実際の価格と差が出ることがあります。",
   "about.unofficialTitle": "非公式について",
   "meta.about.title": "データ出典と計算方法",
-  "meta.about.description": "オシボルトの定価・取引価格の出典、プレ値の計算式、更新頻度と制限事項を公開します。"
+  "meta.about.description": "オシボルトの定価・取引価格の出典、プレ値の計算式、更新頻度と制限事項を公開します。",
+  "legal.privacy": "プライバシーポリシー",
+  "legal.terms": "利用規約",
+  "legal.effective": "施行日 {date}",
+  "meta.privacy.description": "オシボルトの個人情報とメール購読情報の取り扱いについて案内します。",
+  "meta.terms.description": "オシボルトの利用条件とデータ利用範囲について案内します。"
 }

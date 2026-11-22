@@ -267,5 +267,10 @@
   "about.limitsBody3": "거래 건수가 적으면 실제 거래가와 차이가 클 수 있어요.",
   "about.unofficialTitle": "비공식 고지",
   "meta.about.title": "데이터 출처와 계산 방법",
-  "meta.about.description": "오시볼트의 정가·거래가 출처, 프리미엄 계산식, 갱신 주기와 한계를 공개해요."
+  "meta.about.description": "오시볼트의 정가·거래가 출처, 프리미엄 계산식, 갱신 주기와 한계를 공개해요.",
+  "legal.privacy": "개인정보처리방침",
+  "legal.terms": "이용약관",
+  "legal.effective": "시행일 {date}",
+  "meta.privacy.description": "오시볼트의 개인정보 처리와 이메일 구독 정보 관리 방식을 안내해요.",
+  "meta.terms.description": "오시볼트 서비스 이용 조건과 데이터 이용 범위를 안내해요."
 }
