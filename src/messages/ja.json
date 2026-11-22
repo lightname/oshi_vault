@@ -241,5 +241,11 @@
   "share.emptyTitle": "シェアするグッズがありません",
   "share.emptyBody": "棚にグッズを追加するとカードを作れます。",
   "share.error": "画像を作成できませんでした。",
-  "share.retry": "もう一度作る"
+  "share.retry": "もう一度作る",
+  "guides.h1": "コレクターガイド",
+  "guides.lead": "相場の調べ方、バーコードの場所、限定の種類をまとめました。",
+  "guides.updated": "{date} 更新",
+  "guides.emptyTitle": "この言語のガイドは準備中です",
+  "guides.emptyCta": "グッズを見る",
+  "meta.guides.description": "限定グッズの相場の調べ方、バーコードの場所、限定の種類をまとめたガイドです。"
 }
