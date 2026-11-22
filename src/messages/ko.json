@@ -250,5 +250,22 @@
   "meta.guides.description": "한정판 굿즈 시세 확인, 바코드 찾기, 한정판 유형 구분법을 정리한 가이드예요.",
   "guide.toc": "목차",
   "guide.relatedGoods": "글에 나온 IP의 굿즈",
-  "guide.relatedIps": "관련 IP"
+  "guide.relatedIps": "관련 IP",
+  "about.h1": "데이터 출처와 계산 방법",
+  "about.lead": "오시볼트의 모든 숫자가 어디서 오는지 공개해요.",
+  "about.sourcesTitle": "데이터 출처",
+  "about.sourcesBody": "정가는 각 공식몰 상품 페이지에서 확인해요. 거래가는 {markets}의 판매완료 거래에서 수집해요.",
+  "about.methodTitle": "계산 방법",
+  "about.methodBody1": "현재 시세는 가장 최근 기준일의 마켓별 중간 거래가를 거래 건수로 가중평균한 값이에요.",
+  "about.methodBody2": "프리미엄 = (현재 시세 − 정가) ÷ 정가",
+  "about.methodBody3": "통화 환산은 {date} 기준 고정 환율을 써요.",
+  "about.updateTitle": "갱신 주기",
+  "about.updateBody": "데이터를 갱신할 때 사이트를 다시 만들어요. 모든 시세에 기준일을 표시해요.",
+  "about.limitsTitle": "한계",
+  "about.limitsBody1": "등록된 굿즈는 {n}개예요. 모든 굿즈를 다루지는 않아요.",
+  "about.limitsBody2": "기준일이 {days}일보다 오래되면 '오래된 시세'로 표시해요.",
+  "about.limitsBody3": "거래 건수가 적으면 실제 거래가와 차이가 클 수 있어요.",
+  "about.unofficialTitle": "비공식 고지",
+  "meta.about.title": "데이터 출처와 계산 방법",
+  "meta.about.description": "오시볼트의 정가·거래가 출처, 프리미엄 계산식, 갱신 주기와 한계를 공개해요."
 }

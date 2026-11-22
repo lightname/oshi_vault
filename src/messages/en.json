@@ -250,5 +250,22 @@
   "meta.guides.description": "Guides on checking limited merch prices, finding barcodes, and reading limited edition labels.",
   "guide.toc": "Contents",
   "guide.relatedGoods": "Merch from this guide's IPs",
-  "guide.relatedIps": "Related IPs"
+  "guide.relatedIps": "Related IPs",
+  "about.h1": "Data sources and methods",
+  "about.lead": "Where every number on Oshi Vault comes from.",
+  "about.sourcesTitle": "Data sources",
+  "about.sourcesBody": "Retail prices come from official store pages. Sold prices come from completed sales on {markets}.",
+  "about.methodTitle": "How we calculate",
+  "about.methodBody1": "Current price is the sales-weighted average of each market's median on the latest date.",
+  "about.methodBody2": "Premium = (current price − retail) ÷ retail",
+  "about.methodBody3": "Currency conversion uses fixed rates as of {date}.",
+  "about.updateTitle": "Update schedule",
+  "about.updateBody": "The site is rebuilt when data is updated. Every price shows its date.",
+  "about.limitsTitle": "Limitations",
+  "about.limitsBody1": "We list {n} items. Not every item is covered.",
+  "about.limitsBody2": "Prices older than {days} days are marked as older data.",
+  "about.limitsBody3": "With few sales, prices may differ from actual deals.",
+  "about.unofficialTitle": "Unofficial notice",
+  "meta.about.title": "Data sources and methods",
+  "meta.about.description": "Where Oshi Vault's retail and sold prices come from, how premiums are calculated, and update limits."
 }

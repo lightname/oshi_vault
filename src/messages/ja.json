@@ -250,5 +250,22 @@
   "meta.guides.description": "限定グッズの相場の調べ方、バーコードの場所、限定の種類をまとめたガイドです。",
   "guide.toc": "目次",
   "guide.relatedGoods": "記事に出てきたIPのグッズ",
-  "guide.relatedIps": "関連IP"
+  "guide.relatedIps": "関連IP",
+  "about.h1": "データ出典と計算方法",
+  "about.lead": "オシボルトのすべての数字の出どころを公開します。",
+  "about.sourcesTitle": "データ出典",
+  "about.sourcesBody": "定価は各公式ストアの商品ページで確認します。取引価格は{markets}の取引済みデータから収集します。",
+  "about.methodTitle": "計算方法",
+  "about.methodBody1": "現在の相場は、最新基準日のマーケット別中央値を取引件数で加重平均した値です。",
+  "about.methodBody2": "プレ値率 = (現在の相場 − 定価) ÷ 定価",
+  "about.methodBody3": "通貨換算は{date}時点の固定レートを使います。",
+  "about.updateTitle": "更新頻度",
+  "about.updateBody": "データ更新時にサイトを再構築します。すべての相場に基準日を表示します。",
+  "about.limitsTitle": "制限事項",
+  "about.limitsBody1": "登録グッズは{n}件です。すべてのグッズは扱っていません。",
+  "about.limitsBody2": "基準日が{days}日より古い相場は「古い相場」と表示します。",
+  "about.limitsBody3": "取引件数が少ないと実際の価格と差が出ることがあります。",
+  "about.unofficialTitle": "非公式について",
+  "meta.about.title": "データ出典と計算方法",
+  "meta.about.description": "オシボルトの定価・取引価格の出典、プレ値の計算式、更新頻度と制限事項を公開します。"
 }
