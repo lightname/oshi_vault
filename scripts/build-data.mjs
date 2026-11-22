@@ -8,7 +8,6 @@ const XLSX_PATH = path.join(ROOT, 'data/source/mega-ip-goods.xlsx');
 const LOCK_PATH = path.join(ROOT, 'src/data/slug-lock.json');
 const GEN_DIR = path.join(ROOT, 'src/data/generated');
 const PUB_PATH = path.join(ROOT, 'public/data/catalog.json');
-
 const MAP = {
   cat: { '게임': 'game', '애니': 'anime', '캐릭터': 'character', '영화': 'movie' },
   type: { '피규어': 'figure', '인형': 'plush', '뱃지·아크릴': 'badge', '카드': 'card', '쿠지': 'kuji', '의류·잡화': 'apparel', '기타': 'other' },
@@ -18,11 +17,23 @@ const MAP = {
   markets: new Set(['ebay', 'mercari', 'kream', 'other']),
   currencies: new Set(['JPY', 'KRW', 'USD']),
   fallbackSlugs: { '리락쿠마·스미코구라시': 'rilakkuma-sumikkogurashi' },
+  fallbackEnNames: { '리락쿠마·스미코구라시': 'Rilakkuma & Sumikkogurashi' },
 };
+const HAS_JA = /[\u3040-\u30FF\u4E00-\u9FFF]/;
+const HAS_LATIN = /[A-Za-z\u00C0-\u024F]/;
 
+function splitIpOriginal(orig, ko) {
+  if (!orig) return { en: ko, ja: ko };
+  const p = orig.match(/^(.+?)\s*\(([^()]+)\)\s*$/);
+  const parts = orig.includes(' / ') ? orig.split(' / ').map((s) => s.trim()).filter(Boolean) : p ? [p[1].trim(), p[2].trim()] : null;
+  if (parts && parts.length >= 2) {
+    return { en: parts.find((x) => HAS_LATIN.test(x) && !HAS_JA.test(x)) ?? MAP.fallbackEnNames[ko] ?? orig, ja: parts.find((x) => HAS_JA.test(x)) ?? orig };
+  }
+  if (HAS_LATIN.test(orig) && HAS_JA.test(orig)) return { en: orig.replace(/\s*[-–—]?[\u3040-\u30FF\u4E00-\u9FFF・\s-]+$/, '').trim() || orig, ja: orig };
+  return { en: HAS_JA.test(orig) ? (MAP.fallbackEnNames[ko] ?? orig) : orig, ja: orig };
+}
 const errors = [];
 const err = (s, r, c, m) => errors.push(`[data] ${s} ${r} ${c} ${m}`);
-
 function cellVal(cell) {
   let v = cell?.value;
   if (v && typeof v === 'object' && 'result' in v) v = v.result;
@@ -30,9 +41,7 @@ function cellVal(cell) {
   if (v && typeof v === 'object' && 'hyperlink' in v) v = v.text ?? v.hyperlink;
   return v ?? null;
 }
-
 const asStr = (v) => (v === null || v === undefined ? null : String(v).trim() || null);
-
 function asDate(v) {
   if (v === null || v === undefined || v === '') return null;
   if (v instanceof Date) return v.toISOString().slice(0, 10);
@@ -40,20 +49,17 @@ function asDate(v) {
   const s = String(v).trim();
   return /^\d{4}-\d{2}-\d{2}/.test(s) ? s.slice(0, 10) : null;
 }
-
 function makeSlug(text) {
   if (!text) return '';
   let s = text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   if (s.length > 60) { const c = s.slice(0, 60); const i = c.lastIndexOf('-'); s = i > 0 ? c.slice(0, i) : c; }
   return s;
 }
-
 function deriveIpSlug(nameKo, original) {
   if (MAP.fallbackSlugs[nameKo]) return MAP.fallbackSlugs[nameKo];
   const latin = (original.match(/[A-Za-z0-9\u00C0-\u024F\s'×&.-]+/g) || []).map((x) => x.trim()).filter((x) => /[A-Za-z]/.test(x)).join(' ');
   return makeSlug(latin) || makeSlug(nameKo);
 }
-
 function mapHeaders(ws) {
   const exact = new Map(); const base = new Map();
   ws.getRow(1).eachCell({ includeEmpty: false }, (cell, col) => {
@@ -64,7 +70,6 @@ function mapHeaders(ws) {
   });
   return (name) => exact.get(name) ?? base.get(name) ?? null;
 }
-
 const sortKeys = (v) => Array.isArray(v) ? v.map(sortKeys) : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map((k) => [k, sortKeys(v[k])])) : v;
 const toJson = (v) => `${JSON.stringify(sortKeys(v), null, 2)}\n`;
 
@@ -95,9 +100,10 @@ async function run() {
     if (!cat) err('메가IP', r, '분류', '허용되지 않은 값');
     if (![1, 2, 3].includes(priority)) err('메가IP', r, '우선순위', '1~3 필요');
     if (!slug || !/^[a-z0-9-]+$/.test(slug)) err('메가IP', r, 'IP슬러그', '형식 오류');
+    const parsedName = splitIpOriginal(original ?? '', nameKo);
     rawIps.push({
       row: r, slug: slug ?? '',
-      name: { ko: nameKo, en: asStr(get('IP명(EN)')) ?? original ?? nameKo, ja: asStr(get('IP명(JA)')) ?? original ?? nameKo },
+      name: { ko: nameKo, en: asStr(get('IP명(EN)')) ?? parsedName.en, ja: asStr(get('IP명(JA)')) ?? parsedName.ja },
       original: original ?? '', owner: owner ?? '', category: cat ?? 'other',
       priority, officialUrl: asStr(get('공식몰URL')), order: 0, goodsCount: 0,
     });
@@ -105,7 +111,6 @@ async function run() {
   rawIps.sort((a, b) => a.priority - b.priority || a.row - b.row);
   const ips = rawIps.map((item, i) => { const ip = { ...item, order: i }; delete ip.row; return ip; });
   const ipByName = new Map(ips.map((ip) => [ip.name.ko, ip]));
-
   const gCol = mapHeaders(goodsSheet);
   const goods = []; const seenIds = new Set();
   for (let r = 2; r <= goodsSheet.rowCount; r++) {
@@ -150,7 +155,6 @@ async function run() {
     });
   }
   goods.sort((a, b) => a.id.localeCompare(b.id));
-
   const prices = [];
   if (priceSheet) {
     const pCol = mapHeaders(priceSheet); const seenKeys = new Set();
@@ -192,5 +196,4 @@ async function run() {
   }
   outputs.forEach(([f, c]) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, c, 'utf8'); });
 }
-
 run().catch((e) => { console.error(e); process.exit(1); });

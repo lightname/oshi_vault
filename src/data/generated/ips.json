@@ -3,8 +3,8 @@
     "category": "game",
     "goodsCount": 3,
     "name": {
-      "en": "ポケットモンスター / Pokémon",
-      "ja": "ポケットモンスター / Pokémon",
+      "en": "Pokémon",
+      "ja": "ポケットモンスター",
       "ko": "포켓몬"
     },
     "officialUrl": "https://www.pokemoncenter-online.com/",
@@ -18,8 +18,8 @@
     "category": "character",
     "goodsCount": 3,
     "name": {
-      "en": "サンリオキャラクターズ / Sanrio",
-      "ja": "サンリオキャラクターズ / Sanrio",
+      "en": "Sanrio",
+      "ja": "サンリオキャラクターズ",
       "ko": "산리오"
     },
     "officialUrl": "https://shop.sanrio.co.jp/",
@@ -33,8 +33,8 @@
     "category": "character",
     "goodsCount": 2,
     "name": {
-      "en": "Disney / ディズニー",
-      "ja": "Disney / ディズニー",
+      "en": "Disney",
+      "ja": "ディズニー",
       "ko": "디즈니"
     },
     "officialUrl": "https://store.disney.co.jp/",
@@ -48,8 +48,8 @@
     "category": "character",
     "goodsCount": 3,
     "name": {
-      "en": "ちいかわ / Chiikawa",
-      "ja": "ちいかわ / Chiikawa",
+      "en": "Chiikawa",
+      "ja": "ちいかわ",
       "ko": "치이카와"
     },
     "officialUrl": "https://chiikawamarket.jp/",
@@ -63,8 +63,8 @@
     "category": "anime",
     "goodsCount": 2,
     "name": {
-      "en": "ONE PIECE / ワンピース",
-      "ja": "ONE PIECE / ワンピース",
+      "en": "ONE PIECE",
+      "ja": "ワンピース",
       "ko": "원피스"
     },
     "officialUrl": "https://store.toei-anim.co.jp/shop/ls_pages/mugiwara-store.aspx",
@@ -78,8 +78,8 @@
     "category": "anime",
     "goodsCount": 2,
     "name": {
-      "en": "鬼滅の刃 (Demon Slayer)",
-      "ja": "鬼滅の刃 (Demon Slayer)",
+      "en": "Demon Slayer",
+      "ja": "鬼滅の刃",
       "ko": "귀멸의 칼날"
     },
     "officialUrl": "https://www.goodsmile.com/ja",
@@ -93,8 +93,8 @@
     "category": "anime",
     "goodsCount": 2,
     "name": {
-      "en": "呪術廻戦 (Jujutsu Kaisen)",
-      "ja": "呪術廻戦 (Jujutsu Kaisen)",
+      "en": "Jujutsu Kaisen",
+      "ja": "呪術廻戦",
       "ko": "주술회전"
     },
     "officialUrl": "https://www.goodsmile.com/ja",
@@ -108,8 +108,8 @@
     "category": "anime",
     "goodsCount": 2,
     "name": {
-      "en": "ドラゴンボール (Dragon Ball)",
-      "ja": "ドラゴンボール (Dragon Ball)",
+      "en": "Dragon Ball",
+      "ja": "ドラゴンボール",
       "ko": "드래곤볼"
     },
     "officialUrl": "https://1kuji.com/products?search_keyword=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB",
@@ -123,8 +123,8 @@
     "category": "game",
     "goodsCount": 2,
     "name": {
-      "en": "スーパーマリオ (Super Mario)",
-      "ja": "スーパーマリオ (Super Mario)",
+      "en": "Super Mario",
+      "ja": "スーパーマリオ",
       "ko": "슈퍼마리오(닌텐도)"
     },
     "officialUrl": "https://store-jp.nintendo.com/",
@@ -138,8 +138,8 @@
     "category": "movie",
     "goodsCount": 2,
     "name": {
-      "en": "Star Wars (スター・ウォーズ)",
-      "ja": "Star Wars (スター・ウォーズ)",
+      "en": "Star Wars",
+      "ja": "スター・ウォーズ",
       "ko": "스타워즈"
     },
     "officialUrl": "https://store.disney.co.jp/character/star-wars/",
@@ -153,8 +153,8 @@
     "category": "movie",
     "goodsCount": 0,
     "name": {
-      "en": "Marvel (マーベル)",
-      "ja": "Marvel (マーベル)",
+      "en": "Marvel",
+      "ja": "マーベル",
       "ko": "마블"
     },
     "officialUrl": null,
@@ -168,8 +168,8 @@
     "category": "movie",
     "goodsCount": 0,
     "name": {
-      "en": "Harry Potter (ハリー・ポッター)",
-      "ja": "Harry Potter (ハリー・ポッター)",
+      "en": "Harry Potter",
+      "ja": "ハリー・ポッター",
       "ko": "해리포터"
     },
     "officialUrl": null,
@@ -183,8 +183,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "機動戦士ガンダム (Mobile Suit Gundam)",
-      "ja": "機動戦士ガンダム (Mobile Suit Gundam)",
+      "en": "Mobile Suit Gundam",
+      "ja": "機動戦士ガンダム",
       "ko": "건담"
     },
     "officialUrl": null,
@@ -198,8 +198,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "新世紀エヴァンゲリオン (Evangelion)",
-      "ja": "新世紀エヴァンゲリオン (Evangelion)",
+      "en": "Evangelion",
+      "ja": "新世紀エヴァンゲリオン",
       "ko": "에반게리온"
     },
     "officialUrl": null,
@@ -213,7 +213,7 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "NARUTO -ナルト-",
+      "en": "NARUTO",
       "ja": "NARUTO -ナルト-",
       "ko": "나루토"
     },
@@ -228,8 +228,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "進撃の巨人 (Attack on Titan)",
-      "ja": "進撃の巨人 (Attack on Titan)",
+      "en": "Attack on Titan",
+      "ja": "進撃の巨人",
       "ko": "진격의 거인"
     },
     "officialUrl": null,
@@ -243,8 +243,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "チェンソーマン (Chainsaw Man)",
-      "ja": "チェンソーマン (Chainsaw Man)",
+      "en": "Chainsaw Man",
+      "ja": "チェンソーマン",
       "ko": "체인소맨"
     },
     "officialUrl": null,
@@ -273,8 +273,8 @@
     "category": "game",
     "goodsCount": 0,
     "name": {
-      "en": "ブルーアーカイブ (Blue Archive)",
-      "ja": "ブルーアーカイブ (Blue Archive)",
+      "en": "Blue Archive",
+      "ja": "ブルーアーカイブ",
       "ko": "블루아카이브"
     },
     "officialUrl": null,
@@ -288,8 +288,8 @@
     "category": "game",
     "goodsCount": 0,
     "name": {
-      "en": "原神 (Genshin Impact)",
-      "ja": "原神 (Genshin Impact)",
+      "en": "Genshin Impact",
+      "ja": "原神",
       "ko": "원신"
     },
     "officialUrl": null,
@@ -303,8 +303,8 @@
     "category": "game",
     "goodsCount": 0,
     "name": {
-      "en": "ゼルダの伝説 (The Legend of Zelda)",
-      "ja": "ゼルダの伝説 (The Legend of Zelda)",
+      "en": "The Legend of Zelda",
+      "ja": "ゼルダの伝説",
       "ko": "젤다의 전설"
     },
     "officialUrl": null,
@@ -318,8 +318,8 @@
     "category": "game",
     "goodsCount": 0,
     "name": {
-      "en": "星のカービィ (Kirby)",
-      "ja": "星のカービィ (Kirby)",
+      "en": "Kirby",
+      "ja": "星のカービィ",
       "ko": "별의 커비"
     },
     "officialUrl": null,
@@ -333,8 +333,8 @@
     "category": "character",
     "goodsCount": 0,
     "name": {
-      "en": "PEANUTS (スヌーピー)",
-      "ja": "PEANUTS (スヌーピー)",
+      "en": "PEANUTS",
+      "ja": "スヌーピー",
       "ko": "스누피(피너츠)"
     },
     "officialUrl": null,
@@ -348,7 +348,7 @@
     "category": "character",
     "goodsCount": 0,
     "name": {
-      "en": "リラックマ・すみっコぐらし",
+      "en": "Rilakkuma & Sumikkogurashi",
       "ja": "リラックマ・すみっコぐらし",
       "ko": "리락쿠마·스미코구라시"
     },
@@ -363,8 +363,8 @@
     "category": "character",
     "goodsCount": 0,
     "name": {
-      "en": "Miffy (ミッフィー)",
-      "ja": "Miffy (ミッフィー)",
+      "en": "Miffy",
+      "ja": "ミッフィー",
       "ko": "미피"
     },
     "officialUrl": null,
@@ -378,8 +378,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "ハイキュー!! (Haikyu!!)",
-      "ja": "ハイキュー!! (Haikyu!!)",
+      "en": "Haikyu!!",
+      "ja": "ハイキュー!!",
       "ko": "하이큐"
     },
     "officialUrl": null,
@@ -393,8 +393,8 @@
     "category": "anime",
     "goodsCount": 0,
     "name": {
-      "en": "名探偵コナン (Detective Conan)",
-      "ja": "名探偵コナン (Detective Conan)",
+      "en": "Detective Conan",
+      "ja": "名探偵コナン",
       "ko": "명탐정 코난"
     },
     "officialUrl": null,
