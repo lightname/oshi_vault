@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { config } from '@/config';
 import { MARKET_LABEL, marketUrl } from '@/lib/affiliate/marketLink';
 import { getImage } from '@/lib/data/images';
@@ -7,9 +6,9 @@ import type { Goods, Ip, Lang, PriceSnapshot } from '@/lib/data/types';
 import { formatDate, formatLocalMoney, formatMoney } from '@/lib/format/format';
 import { t, type Dict } from '@/lib/i18n/dictionary';
 import { premiumRatio, toJPY, type Current } from '@/lib/price/price';
-import { buttonClass } from '@/components/ui/Button';
 import { Icon } from '@/components/ui/icons';
 import { SubscribeBox } from '@/components/subscribe/SubscribeBox';
+import { HowToReadLink } from './HowToReadLink';
 import { MarketButtons } from './MarketButtons';
 import { MobilePriceBar } from './MobilePriceBar';
 import { PremiumBadge } from './PremiumBadge';
@@ -107,9 +106,7 @@ export function GoodsPriceSection({
           {topMarket ? (
             <TrustLine snapshot={topMarket} stale={current.stale} lang={lang} dict={dict} />
           ) : null}
-          <Link href={howToReadHref} className={buttonClass('text')}>
-            {t(dict, 'trust.howToRead')}
-          </Link>
+          <HowToReadLink href={howToReadHref} label={t(dict, 'trust.howToRead')} />
         </div>
 
         <div className="mt-(--space-5)">

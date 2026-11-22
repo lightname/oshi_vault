@@ -24,7 +24,16 @@ export function RelatedGoods({ lang, dict, ip, items, title, max = 6 }: Props) {
     <section className="mt-(--space-8)">
       <div className="flex flex-wrap items-center justify-between gap-(--space-2)">
         <h2 className="text-h3 text-secondary">{title ?? t(dict, 'related.goodsTitle')}</h2>
-        <Link href={`/${lang}/ip/${ip.slug}/`} className={buttonClass('text')}>
+        <Link
+          href={`/${lang}/ip/${ip.slug}/`}
+          onClick={() =>
+            track('internal_link_click', {
+              block: 'related_goods',
+              target_screen_id: 'S-03',
+            })
+          }
+          className={buttonClass('text')}
+        >
           {t(dict, 'related.goodsMore', { ip: ip.name[lang] })}
         </Link>
       </div>
