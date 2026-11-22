@@ -67,3 +67,14 @@ const indexXml = [
 ].join('\n');
 
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), indexXml, 'utf8');
+
+for (const lang of locales) {
+  for (const rel of [
+    `${lang}/guides/_none`,
+    `${lang}/guides/_none.txt`,
+    `${lang}/ip/_none`,
+    `${lang}/ip/_none.txt`,
+  ]) {
+    fs.rmSync(path.join(OUT, rel), { recursive: true, force: true });
+  }
+}

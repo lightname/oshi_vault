@@ -128,6 +128,12 @@ if (fs.existsSync(path.join(ROOT, 'src/app/not-found.tsx')) && !fs.existsSync(pa
   fail('/404.html', 'missing 404.html');
 }
 
+for (const lang of ['ko', 'en', 'ja']) {
+  for (const sentinel of [`/${lang}/guides/_none/`, `/${lang}/ip/_none/_none/`]) {
+    if (fs.existsSync(htmlPath(sentinel))) fail(sentinel, 'sentinel html leaked to out');
+  }
+}
+
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
