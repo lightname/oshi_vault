@@ -247,5 +247,8 @@
   "guides.updated": "{date} 업데이트",
   "guides.emptyTitle": "이 언어의 가이드를 준비하고 있어요",
   "guides.emptyCta": "굿즈 둘러보기",
-  "meta.guides.description": "한정판 굿즈 시세 확인, 바코드 찾기, 한정판 유형 구분법을 정리한 가이드예요."
+  "meta.guides.description": "한정판 굿즈 시세 확인, 바코드 찾기, 한정판 유형 구분법을 정리한 가이드예요.",
+  "guide.toc": "목차",
+  "guide.relatedGoods": "글에 나온 IP의 굿즈",
+  "guide.relatedIps": "관련 IP"
 }

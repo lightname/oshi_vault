@@ -13,21 +13,23 @@ type Props = {
   dict: Dict;
   ip: Ip;
   items: { goods: Goods; current: Current }[];
+  title?: string;
+  max?: number;
 };
 
-export function RelatedGoods({ lang, dict, ip, items }: Props) {
+export function RelatedGoods({ lang, dict, ip, items, title, max = 6 }: Props) {
   if (items.length === 0) return null;
 
   return (
     <section className="mt-(--space-8)">
       <div className="flex flex-wrap items-center justify-between gap-(--space-2)">
-        <h2 className="text-h3 text-secondary">{t(dict, 'related.goodsTitle')}</h2>
+        <h2 className="text-h3 text-secondary">{title ?? t(dict, 'related.goodsTitle')}</h2>
         <Link href={`/${lang}/ip/${ip.slug}/`} className={buttonClass('text')}>
           {t(dict, 'related.goodsMore', { ip: ip.name[lang] })}
         </Link>
       </div>
       <div className="mt-(--space-4) grid grid-cols-2 gap-(--space-4) md:grid-cols-3 md:gap-(--space-5) lg:grid-cols-4">
-        {items.slice(0, 6).map(({ goods, current }) => (
+        {items.slice(0, max).map(({ goods, current }) => (
           <GoodsCard
             key={goods.id}
             goods={goods}

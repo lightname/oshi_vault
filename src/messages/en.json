@@ -247,5 +247,8 @@
   "guides.updated": "Updated {date}",
   "guides.emptyTitle": "Guides in this language are coming",
   "guides.emptyCta": "Browse merch",
-  "meta.guides.description": "Guides on checking limited merch prices, finding barcodes, and reading limited edition labels."
+  "meta.guides.description": "Guides on checking limited merch prices, finding barcodes, and reading limited edition labels.",
+  "guide.toc": "Contents",
+  "guide.relatedGoods": "Merch from this guide's IPs",
+  "guide.relatedIps": "Related IPs"
 }

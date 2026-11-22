@@ -247,5 +247,8 @@
   "guides.updated": "{date} 更新",
   "guides.emptyTitle": "この言語のガイドは準備中です",
   "guides.emptyCta": "グッズを見る",
-  "meta.guides.description": "限定グッズの相場の調べ方、バーコードの場所、限定の種類をまとめたガイドです。"
+  "meta.guides.description": "限定グッズの相場の調べ方、バーコードの場所、限定の種類をまとめたガイドです。",
+  "guide.toc": "目次",
+  "guide.relatedGoods": "記事に出てきたIPのグッズ",
+  "guide.relatedIps": "関連IP"
 }
