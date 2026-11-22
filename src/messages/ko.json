@@ -208,5 +208,16 @@
   "col.emptyBody": "바코드를 스캔해 내 진열장에 담으세요",
   "col.emptySearch": "굿즈 검색하기",
   "col.loadError": "저장된 진열장을 읽지 못했어요.",
-  "col.reset": "진열장 초기화하기"
+  "col.reset": "진열장 초기화하기",
+  "wish.h1": "위시리스트",
+  "wish.lead": "목표가를 정해두면 도달한 굿즈를 표시해요",
+  "wish.reachedTitle": "목표가에 도달한 굿즈 {n}개",
+  "wish.current": "현재 중간 거래가",
+  "wish.target": "목표가",
+  "wish.below": "목표가보다 {amount} 낮아요",
+  "wish.gap": "목표가까지 {amount}",
+  "wish.noTarget": "목표가를 입력하세요",
+  "wish.emptyTitle": "위시리스트가 비어 있어요",
+  "wish.emptyBody": "굿즈 상세에서 위시리스트에 담을 수 있어요.",
+  "wish.emptyCta": "굿즈 둘러보기"
 }

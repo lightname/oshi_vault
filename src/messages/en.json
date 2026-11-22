@@ -208,5 +208,16 @@
   "col.emptyBody": "Scan a barcode to add it to your shelf",
   "col.emptySearch": "Search merch",
   "col.loadError": "Couldn't read your saved shelf.",
-  "col.reset": "Reset shelf"
+  "col.reset": "Reset shelf",
+  "wish.h1": "Wishlist",
+  "wish.lead": "Set a target price and we'll flag it",
+  "wish.reachedTitle": "{n} items at your target price",
+  "wish.current": "Current median",
+  "wish.target": "Target",
+  "wish.below": "{amount} below target",
+  "wish.gap": "{amount} to target",
+  "wish.noTarget": "Enter a target price",
+  "wish.emptyTitle": "Your wishlist is empty",
+  "wish.emptyBody": "Add items from their product page.",
+  "wish.emptyCta": "Browse merch"
 }

@@ -208,5 +208,16 @@
   "col.emptyBody": "バーコードで棚に登録できます",
   "col.emptySearch": "グッズを検索",
   "col.loadError": "保存した棚を読み込めませんでした。",
-  "col.reset": "棚をリセット"
+  "col.reset": "棚をリセット",
+  "wish.h1": "ウィッシュリスト",
+  "wish.lead": "目標価格に届いた商品を表示します",
+  "wish.reachedTitle": "目標価格に到達 {n}件",
+  "wish.current": "現在の中央値",
+  "wish.target": "目標価格",
+  "wish.below": "目標より{amount}安い",
+  "wish.gap": "目標まで{amount}",
+  "wish.noTarget": "目標価格を入力",
+  "wish.emptyTitle": "ウィッシュリストは空です",
+  "wish.emptyBody": "商品ページから追加できます。",
+  "wish.emptyCta": "グッズを見る"
 }
