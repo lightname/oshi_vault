@@ -157,5 +157,13 @@
   "home.how2Body": "거래가 많은 마켓에 더 큰 비중을 둬요.",
   "home.how3Title": "기준일 표시",
   "home.how3Body": "모든 시세에 데이터 날짜를 붙여요.",
-  "home.guidesTitle": "수집 가이드"
+  "home.guidesTitle": "수집 가이드",
+  "search.h1": "굿즈 검색",
+  "search.count": "검색 결과 {n}개",
+  "search.browseIp": "IP별로 찾아보기",
+  "search.emptyTitle": "찾는 굿즈가 아직 없어요",
+  "search.emptyBody": "직접 등록하면 내 진열장에 담을 수 있어요.",
+  "search.manualAdd": "직접 등록하기",
+  "search.loadError": "검색 데이터를 불러오지 못했어요.",
+  "search.reload": "다시 불러오기"
 }

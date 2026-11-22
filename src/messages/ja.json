@@ -157,5 +157,13 @@
   "home.how2Body": "取引が多いマーケットを重視します。",
   "home.how3Title": "基準日を表示",
   "home.how3Body": "すべての相場にデータ日付を付けます。",
-  "home.guidesTitle": "コレクターガイド"
+  "home.guidesTitle": "コレクターガイド",
+  "search.h1": "グッズ検索",
+  "search.count": "検索結果 {n}件",
+  "search.browseIp": "IP別に探す",
+  "search.emptyTitle": "お探しのグッズはまだありません",
+  "search.emptyBody": "手動で登録すると棚に追加できます。",
+  "search.manualAdd": "手動で登録する",
+  "search.loadError": "検索データを読み込めませんでした。",
+  "search.reload": "再読み込み"
 }

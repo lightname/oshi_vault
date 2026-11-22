@@ -157,5 +157,13 @@
   "home.how2Body": "Markets with more sales count more.",
   "home.how3Title": "Dated data",
   "home.how3Body": "Every price shows its data date.",
-  "home.guidesTitle": "Collector guides"
+  "home.guidesTitle": "Collector guides",
+  "search.h1": "Search merch",
+  "search.count": "{n} results",
+  "search.browseIp": "Browse by IP",
+  "search.emptyTitle": "We don't have that item yet",
+  "search.emptyBody": "Add it manually to keep it on your shelf.",
+  "search.manualAdd": "Add manually",
+  "search.loadError": "Couldn't load search data.",
+  "search.reload": "Reload"
 }
