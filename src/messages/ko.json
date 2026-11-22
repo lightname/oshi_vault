@@ -62,5 +62,13 @@
   "errors.CONFLICT": "이미 처리된 요청이에요.",
   "errors.RATE_LIMITED": "잠시 후 다시 시도해 주세요.",
   "errors.INTERNAL": "일시적인 문제가 생겼어요.",
-  "errors.NETWORK": "네트워크 연결을 확인해 주세요."
+  "errors.NETWORK": "네트워크 연결을 확인해 주세요.",
+  "ip.listH1": "IP별 한정판 굿즈",
+  "ip.listLead": "IP를 고르면 굿즈별 정가와 거래가를 볼 수 있어요.",
+  "ip.goodsCount": "굿즈 {n}개",
+  "ip.category.game": "게임",
+  "ip.category.anime": "애니",
+  "ip.category.character": "캐릭터",
+  "ip.category.movie": "영화",
+  "meta.ipList.description": "{ip1}, {ip2}, {ip3} 등 IP별 한정판 굿즈의 정가와 거래가를 확인하세요."
 }

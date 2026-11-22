@@ -62,5 +62,13 @@
   "errors.CONFLICT": "This was already processed.",
   "errors.RATE_LIMITED": "Please try again shortly.",
   "errors.INTERNAL": "Something went wrong on our side.",
-  "errors.NETWORK": "Check your network connection."
+  "errors.NETWORK": "Check your network connection.",
+  "ip.listH1": "Limited merch by IP",
+  "ip.listLead": "Pick an IP to see retail and sold prices for each item.",
+  "ip.goodsCount": "{n} items",
+  "ip.category.game": "Games",
+  "ip.category.anime": "Anime",
+  "ip.category.character": "Characters",
+  "ip.category.movie": "Movies",
+  "meta.ipList.description": "See retail and sold prices of limited merch by IP, including {ip1}, {ip2}, and {ip3}."
 }

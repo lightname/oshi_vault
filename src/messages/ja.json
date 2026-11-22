@@ -62,5 +62,13 @@
   "errors.CONFLICT": "すでに処理済みです。",
   "errors.RATE_LIMITED": "しばらくしてからお試しください。",
   "errors.INTERNAL": "一時的な問題が発生しました。",
-  "errors.NETWORK": "ネットワーク接続をご確認ください。"
+  "errors.NETWORK": "ネットワーク接続をご確認ください。",
+  "ip.listH1": "IP別の限定グッズ",
+  "ip.listLead": "IPを選ぶとグッズごとの定価と取引価格を見られます。",
+  "ip.goodsCount": "グッズ{n}件",
+  "ip.category.game": "ゲーム",
+  "ip.category.anime": "アニメ",
+  "ip.category.character": "キャラクター",
+  "ip.category.movie": "映画",
+  "meta.ipList.description": "{ip1}、{ip2}、{ip3}などIP別の限定グッズの定価と取引価格を確認できます。"
 }
