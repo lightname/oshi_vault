@@ -30,6 +30,14 @@
 
 ## §2 코딩 후 추가 항목
 
+| ID | 분야 | 대상 | 확인 방법 | 기대 결과 | 근거 문서·절 |
+|---|---|---|---|---|---|
+| QA-19 | 버그 | S-06·S-07·S-08·S-09 모바일(375px) | `npm run qa:shots` 후 375px 스크린샷 및 S-07 삭제 인라인 확인·S-08 목표가 입력 검증 | 가로 스크롤 없음, S-07 삭제 2단계 인라인 확인 및 S-08 목표가 오류/성공 테두리 정상 전환 | TICKETS T-11~T-14 / DESIGN S-06~S-09 |
+| QA-20 | 기능 | S-09 공유 카드 캔버스·워터마크 | 진열장 1건 이상 등록 후 `/ko/share/` 에서 워터마크 토글 및 카드 생성·저장 | 1080×1350 PNG 미리보기·다운로드 정상, 워터마크 해제 시 주소 미표기, 10MB 초과 사진 거부 | TICKETS T-14 / CORE C-41 |
+| QA-21 | 기능 | S-16 계산기 교차 통화·CTA 규칙 | `/ko/tools/premium-calculator/` 에서 JPY 정가·USD 거래가 입력 및 DOM 확인 | 고정 환율 프리미엄·차액·배율 즉시 계산, `btn-primary` 0개, 정적 계산식 설명 HTML 포함 | TICKETS T-19 / DESIGN §6 S-16 |
+| QA-22 | 버그 | 콘텐츠 frontmatter 날짜 형식 | `content/{lang}/{guides,legal}/*.md` 추가 후 `npm run build` | `date`·`updated`·`effective` 를 YAML 문자열(`"YYYY-MM-DD"`)로 기록 시 `formatDate` 오류 없이 빌드 통과 | CORE C-31 / TICKETS T-16, T-18 |
+| QA-23 | 디자인 | T-20 합성 OG 이미지 | `public/images/og/og-default-{ko,en,ja}.png`, `og-ip-{slug}-{lang}.png` 열람 및 `tests/unit/og/size.test.ts` | 전체 33개 파일 1200×630 PNG, 배경·모노 심볼·언어별 제목 및 슬로건 정상 합성 | TICKETS T-20 / CORE C-45 |
+
 ## §3 1차 QA 결과
 
 ## §4 수정 결과
