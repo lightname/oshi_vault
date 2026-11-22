@@ -10,5 +10,14 @@
   "root.ja.name": "日本語",
   "root.ja.desc": "限定グッズの定価と取引価格を比較",
   "root.ja.suggest": "おすすめ",
-  "root.ja.slogan": "推しグッズの、いまの価値"
+  "root.ja.slogan": "推しグッズの、いまの価値",
+  "notFound.ko.title": "페이지를 찾을 수 없어요",
+  "notFound.ko.home": "홈으로 가기",
+  "notFound.ko.search": "굿즈 검색하기",
+  "notFound.en.title": "Page not found",
+  "notFound.en.home": "Go to home",
+  "notFound.en.search": "Search merch",
+  "notFound.ja.title": "ページが見つかりません",
+  "notFound.ja.home": "ホームへ",
+  "notFound.ja.search": "グッズを検索"
 }
