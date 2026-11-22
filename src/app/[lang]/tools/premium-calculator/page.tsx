@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { config } from '@/config';
 import { hasGuide } from '@/lib/content/content';
 import { getImage } from '@/lib/data/images';
@@ -11,9 +10,9 @@ import { buildMetadata, ogPath } from '@/lib/seo/metadata';
 import { LangAlternates } from '@/components/layout/LangAlternates';
 import { ScreenMark } from '@/components/layout/ScreenMark';
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
-import { buttonClass } from '@/components/ui/Button';
 import { JsonLd } from '@/components/ui/JsonLd';
 import { CalculatorCard } from '@/components/calc/CalculatorCard';
+import { HowToReadLink } from '@/components/goods/HowToReadLink';
 
 export const dynamicParams = false;
 
@@ -110,9 +109,7 @@ export default async function PremiumCalculatorPage({
           </div>
           <p className="mt-(--space-3) text-body text-text">{t(dict, 'calc.howBody')}</p>
           <div className="mt-(--space-4)">
-            <Link href={howToReadHref} className={buttonClass('text')}>
-              {t(dict, 'trust.howToRead')}
-            </Link>
+            <HowToReadLink href={howToReadHref} label={t(dict, 'trust.howToRead')} />
           </div>
         </section>
       </div>

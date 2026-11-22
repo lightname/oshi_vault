@@ -57,5 +57,17 @@ describe('S-16 CalculatorCard', () => {
     fireEvent.change(screen.getByLabelText(dict['calc.sold']), { target: { value: '100' } });
     expect(screen.getByText('+200%')).toBeInTheDocument();
     expect(trackMock).toHaveBeenCalledTimes(1);
+
+    // G-02 internal links fire internal_link_click
+    fireEvent.click(screen.getByRole('link', { name: dict['calc.findGoods'] }));
+    expect(trackMock).toHaveBeenCalledWith('internal_link_click', {
+      block: 'calculator_cta',
+      target_screen_id: 'S-05',
+    });
+    fireEvent.click(screen.getByRole('link', { name: dict['cta.scan'] }));
+    expect(trackMock).toHaveBeenCalledWith('internal_link_click', {
+      block: 'calculator_cta',
+      target_screen_id: 'S-06',
+    });
   });
 });

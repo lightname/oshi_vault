@@ -157,11 +157,23 @@ export function CalculatorCard({ lang, dict }: Props) {
       </section>
 
       <section className="mt-(--space-5) flex flex-col gap-(--space-3) md:flex-row md:items-center">
-        <Link href={`/${lang}/search/`} className={buttonClass('secondary', 'w-full md:w-auto')}>
+        <Link
+          href={`/${lang}/search/`}
+          onClick={() =>
+            track('internal_link_click', { block: 'calculator_cta', target_screen_id: 'S-05' })
+          }
+          className={buttonClass('secondary', 'w-full md:w-auto')}
+        >
           <Icon name="search" size={20} />
           <span>{t(dict, 'calc.findGoods')}</span>
         </Link>
-        <Link href={`/${lang}/scan/`} className={buttonClass('text', 'w-full md:w-auto')}>
+        <Link
+          href={`/${lang}/scan/`}
+          onClick={() =>
+            track('internal_link_click', { block: 'calculator_cta', target_screen_id: 'S-06' })
+          }
+          className={buttonClass('text', 'w-full md:w-auto')}
+        >
           {t(dict, 'cta.scan')}
         </Link>
       </section>
