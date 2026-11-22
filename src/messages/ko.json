@@ -272,5 +272,19 @@
   "legal.terms": "이용약관",
   "legal.effective": "시행일 {date}",
   "meta.privacy.description": "오시볼트의 개인정보 처리와 이메일 구독 정보 관리 방식을 안내해요.",
-  "meta.terms.description": "오시볼트 서비스 이용 조건과 데이터 이용 범위를 안내해요."
+  "meta.terms.description": "오시볼트 서비스 이용 조건과 데이터 이용 범위를 안내해요.",
+  "calc.h1": "정가 대비 프리미엄 계산기",
+  "calc.lead": "정가와 거래가를 넣으면 프리미엄과 차액을 계산해요.",
+  "calc.retail": "정가",
+  "calc.sold": "거래가",
+  "calc.currency": "통화",
+  "calc.premium": "프리미엄",
+  "calc.diff": "차액",
+  "calc.ratio": "정가의 {x}배",
+  "calc.placeholder": "두 가격을 입력하면 결과가 나와요.",
+  "calc.findGoods": "카탈로그에서 이 굿즈 찾기",
+  "calc.howTitle": "계산 방식",
+  "calc.howBody": "두 가격을 같은 통화로 바꾼 뒤 비교해요. 수수료와 배송비는 포함하지 않아요.",
+  "calc.invalid": "0보다 큰 숫자를 입력하세요.",
+  "meta.calc.description": "정가와 거래가를 넣으면 리셀 프리미엄과 차액을 엔·원·달러로 계산해요."
 }

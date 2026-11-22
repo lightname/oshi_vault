@@ -272,5 +272,19 @@
   "legal.terms": "利用規約",
   "legal.effective": "施行日 {date}",
   "meta.privacy.description": "オシボルトの個人情報とメール購読情報の取り扱いについて案内します。",
-  "meta.terms.description": "オシボルトの利用条件とデータ利用範囲について案内します。"
+  "meta.terms.description": "オシボルトの利用条件とデータ利用範囲について案内します。",
+  "calc.h1": "プレ値計算ツール",
+  "calc.lead": "定価と取引価格を入れるとプレ値率と差額を計算します。",
+  "calc.retail": "定価",
+  "calc.sold": "取引価格",
+  "calc.currency": "通貨",
+  "calc.premium": "プレ値率",
+  "calc.diff": "差額",
+  "calc.ratio": "定価の{x}倍",
+  "calc.placeholder": "2つの価格を入力すると結果が出ます。",
+  "calc.findGoods": "カタログでこのグッズを探す",
+  "calc.howTitle": "計算方法",
+  "calc.howBody": "2つの価格を同じ通貨に換算して比べます。手数料と送料は含みません。",
+  "calc.invalid": "0より大きい数字を入力してください。",
+  "meta.calc.description": "定価と取引価格を入れるとプレ値率と差額を円・ウォン・ドルで計算します。"
 }

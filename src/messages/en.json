@@ -272,5 +272,19 @@
   "legal.terms": "Terms of use",
   "legal.effective": "Effective {date}",
   "meta.privacy.description": "How Oshi Vault handles personal data and email subscription information.",
-  "meta.terms.description": "Terms and data usage scope for using Oshi Vault."
+  "meta.terms.description": "Terms and data usage scope for using Oshi Vault.",
+  "calc.h1": "Resale premium calculator",
+  "calc.lead": "Enter retail and sold prices to see the premium and difference.",
+  "calc.retail": "Retail price",
+  "calc.sold": "Sold price",
+  "calc.currency": "Currency",
+  "calc.premium": "Premium",
+  "calc.diff": "Difference",
+  "calc.ratio": "{x}× retail",
+  "calc.placeholder": "Enter both prices to see the result.",
+  "calc.findGoods": "Find this item in the catalog",
+  "calc.howTitle": "How it's calculated",
+  "calc.howBody": "Both prices are converted to one currency. Fees and shipping are excluded.",
+  "calc.invalid": "Enter a number greater than 0.",
+  "meta.calc.description": "Enter retail and sold prices to calculate the resale premium and difference in yen, won, or dollars."
 }
