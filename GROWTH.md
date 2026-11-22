@@ -28,7 +28,7 @@
 ════════════════════════════════
 ## §2 검색 키워드·페이지 매핑
 
-`{상품명}`, `{IP}`, `{품번}`은 데이터에서 치환되는 템플릿 키워드입니다. title 접미사는 ko·ja는 ` | 오시볼트`, en은 ` | Oshi Vault`입니다.
+`{상품명}`, `{IP}`, `{품번}`은 데이터에서 치환되는 템플릿 키워드입니다. title 접미사는 ko는 ` | 오시볼트`, en은 ` | Oshi Vault`, ja는 ` | オシボルト`입니다.
 S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14는 L2 이상에서만 생성되며, L1에서는 KW-04를 S-03이 맡지 않고 비워 둡니다(중복 방지).
 
 ### ko
@@ -58,6 +58,8 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 | KW-06 | 해결 | how to check merch resale value, ebay sold listings merch | CT-01 | How to check resale value | Same meaning, sentence form |
 | KW-07 | 해결 | find JAN barcode merch, japanese merch product code | CT-02 | Where to find the barcode | Same meaning, sentence form |
 | KW-08 | 정보 | ichiban kuji prizes explained, store exclusive merch japan | CT-03 | Limited edition types | Same meaning, sentence form |
+| KW-09 | 비교 | buy japan exclusive merch proxy, mercari vs ebay japan merch | CT-04 | Ways to buy Japan-exclusive merch | Same meaning, sentence form |
+| KW-10 | 해결 | merch median sold price meaning, resale price guide | CT-05 | How to read price numbers | Same meaning, sentence form |
 
 ### ja
 
@@ -71,6 +73,7 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 | KW-06 | 해결 | グッズ 相場 調べ方, メルカリ 売り切れ 価格 | CT-01 | グッズ相場の調べ方 | 同じ意味の文 |
 | KW-07 | 해결 | JANコード 調べ方 グッズ | CT-02 | JANコードの場所 | 同じ意味の文 |
 | KW-08 | 정보 | 一番くじ 等賞 違い, 店舗限定 グッズ 種類 | CT-03 | 限定グッズの種類 | 同じ意味の文 |
+| KW-10 | 해결 | グッズ 相場 中央値 意味, 取引価格 見方 | CT-05 | 相場データの読み方 | 同じ意味の文 |
 
 검색량은 확인하지 않았다. 사람이 Search Console·키워드 도구로 확인한다.
 
@@ -88,7 +91,7 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 - 개요: 판매중 가격과 판매완료 가격의 차이 / 마켓별 판매완료 필터 보는 법 / 통화 환산과 수수료 / 거래 건수가 적을 때 주의할 점 / 정가와 비교하는 법 / 오시볼트에서 한 번에 보는 법
 - 사실 확인: 각 마켓의 판매완료 필터 유무와 위치, 수수료율, KREAM 취급 품목 범위
 - 내부 링크: 이 글에서 → S-04 예시 2건, S-16, CT-05 / 이 글로 → S-04 시세 블록, S-12
-- 본문 CTA: 1차는 예시 굿즈 카드 아래, 보조 CTA "진열장에 담기"는 글 끝
+- 본문 CTA: 1차는 예시 굿즈 카드 아래, 보조 CTA "굿즈 검색하기"(S-05 이동, `endCta=shelf`)는 글 끝
 
 ### CT-02 굿즈 바코드(JAN)·품번 찾는 위치
 - 경로·언어: `find-barcode-product-code`, ko/en/ja
@@ -145,7 +148,7 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 ### G-01 기술 SEO
 - 목적: 퍼널 1단계(유입)를 위해 색인과 검색 결과 노출을 확보한다.
 - 적용 화면: 공개 페이지 전체
-- 동작: L1 index 대상은 S-00, S-01, S-02, S-03, S-04, S-10, S-11, S-12, S-13, S-16입니다. 굿즈 상세는 해당 언어의 `{LANG}검수=Y`인 경우만 index하고, 그렇지 않으면 noindex로 두고 sitemap과 hreflang 대상에서 뺍니다. 구조화 데이터는 S-01에 WebSite와 Organization, S-03과 S-02에 ItemList와 BreadcrumbList, S-04에 Product(공식 정가 offers, 판매상태 매핑)와 BreadcrumbList, S-11에 Article과 BreadcrumbList, S-16에 WebApplication을 넣습니다. OG 이미지는 S-03·S-04가 IP별 PNG, 나머지는 언어별 기본 PNG를 씁니다.
+- 동작: L1 index 대상은 S-00, S-01, S-02, S-03, S-04, S-10, S-11, S-12, S-13, S-16입니다. 굿즈 상세는 ko는 필수 필드 충족 시, en·ja는 해당 언어의 `{LANG}검수=Y`인 경우만 index하고, 그렇지 않으면 noindex로 두고 sitemap과 hreflang 대상에서 뺍니다. S-13은 `reviewed: true`일 때만 index합니다. 구조화 데이터는 S-01에 WebSite와 Organization, S-03과 S-02에 ItemList와 BreadcrumbList, S-04에 Product(공식 정가 offers, 판매상태 매핑)와 BreadcrumbList, S-11에 Article과 BreadcrumbList, S-16에 WebApplication을 넣습니다. OG 이미지는 S-03·S-04·S-14가 IP별 PNG, 나머지는 언어별 기본 PNG를 씁니다.
 - 데이터: 굿즈 시트 `EN검수`, `JA검수` 열 (확정표 변경분)
 - 만들지 않는 것: AggregateRating, FAQPage(구글이 일반 사이트에는 리치 결과를 제한함), 굿즈별 동적 OG
 - 측정 이벤트: 해당 없음 (Search Console로 측정)
@@ -246,7 +249,7 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 | 이벤트 이름 | 발생 위치 | 파라미터 | 관련 G-ID·CTA |
 |---|---|---|---|
 | affiliate_click | S-04·S-08 마켓 버튼, 가이드 예시 카드 | goods_id, ip_slug, market, has_affiliate | 1차 CTA, 전환 완료(외부 이동 시점) |
-| subscribe_cta_click | 구독 컴포넌트의 Google 버튼 | topic | 2차 CTA, G-06 |
+| subscribe_cta_click | 구독 컴포넌트 1단계 CTA 버튼(폼 펼침) | topic | 2차 CTA, G-06 |
 | subscribe_submit | API 요청 시점 | topic, watch_count | G-06 |
 | subscribe_success | API `ok:true` 응답 시점 | topic | 구독 완료, G-06 |
 | share_card_create | S-09 생성 버튼 | item_count, watermark | G-05 |
@@ -310,3 +313,8 @@ S-02(IP 목록)는 탐색용 허브라서 KW를 배정하지 않습니다. S-14�
 
 | 일시 | 수정 세션 | 절·ID | 변경 전 | 변경 후 | 사유 |
 |---|---|---|---|---|---|
+| 2026-11-23 | P7 | §2 머리말 | `title 접미사는 ko·ja는 \| 오시볼트, en은 \| Oshi Vault` | `ko는 \| 오시볼트, en은 \| Oshi Vault, ja는 \| オシボルト` | 사실 오류 수정(DESIGN.md §2·SPEC.md 일본어 사이트명 `オシボルト`와 일치) |
+| 2026-11-23 | P7 | §2 en·ja 표(KW-09·KW-10) | en 표에 KW-09·KW-10 누락, ja 표에 KW-10 누락 | en 표에 KW-09(CT-04)·KW-10(CT-05), ja 표에 KW-10(CT-05) 행 추가 | §3 콘텐츠 계획(CT-04 ko/en, CT-05 ko/en/ja)과의 불일치 해소 |
+| 2026-11-23 | P7 | §3 CT-01 | 글 끝 보조 CTA "진열장에 담기" | 글 끝 보조 CTA "굿즈 검색하기"(S-05 이동, `endCta=shelf`) | DESIGN.md §4·§6 S-11 확정 사양(특정 굿즈 맥락 부재로 `col.emptySearch` 사용)에 맞춤 |
+| 2026-11-23 | P7 | §4 G-01 | 모든 언어 `{LANG}검수=Y` 서술, S-13 조건 미명시, OG IP별 대상 S-03·S-04 | ko 필수 필드 충족 시·en/ja 검수=Y, S-13 `reviewed: true` 조건, OG IP별 대상 S-03·S-04·S-14 | SPEC.md 데이터 모델(`KO검수` 열 없음) 및 DESIGN.md §2·CORE C-29 사양과 일치 |
+| 2026-11-23 | P7 | §6 `subscribe_cta_click` | 발생 위치: 구독 컴포넌트의 Google 버튼 | 발생 위치: 구독 컴포넌트 1단계 CTA 버튼(폼 펼침) | DESIGN.md §4.0 C-09 사양 및 GIS iframe 제약(버튼 클릭 직접 인터셉트 불가)에 맞춤 |
