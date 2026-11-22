@@ -127,12 +127,12 @@ export function IpGoodsGrid({
         </div>
 
         <label className="flex shrink-0 items-center gap-(--space-2) text-small text-text-muted">
-          <span>{t(dict, 'ip.sortLabel')}</span>
+          <span className="shrink-0 whitespace-nowrap">{t(dict, 'ip.sortLabel')}</span>
           <select
             aria-label={t(dict, 'ip.sortLabel')}
             value={sort}
             onChange={(e) => setSort(e.target.value as SortKey)}
-            className="h-[44px] w-full rounded-(--radius-md) border border-border bg-surface px-(--space-3) text-small text-text md:w-auto"
+            className="h-[44px] min-w-0 flex-1 rounded-(--radius-md) border border-border bg-surface px-(--space-3) text-small text-text md:w-auto md:flex-none"
           >
             <option value="premium">{t(dict, 'ip.sortPremium')}</option>
             <option value="release">{t(dict, 'ip.sortRelease')}</option>
