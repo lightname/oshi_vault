@@ -38,6 +38,7 @@
   "subscribe.trackBody": "リクエストした商品の相場結果だけお送りします。",
   "subscribe.trackCta": "相場追跡のメールを受け取る",
   "subscribe.consent": "[必須] 上記メールの受信とプライバシーポリシーに同意します。",
+  "subscribe.frequency": "相場更新時に1回、お知らせは月1回以下でお送りします。",
   "subscribe.unsubscribe": "各メールのリンクからいつでも解除できます。",
   "subscribe.needConsent": "同意にチェックするとGoogleで続行できます。",
   "subscribe.sending": "登録しています",

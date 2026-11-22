@@ -137,6 +137,7 @@ export function SubscribeBox({ lang, dict, topic, watches = [], requests = [], o
                   </Link>
                 </span>
               </label>
+              <p className="text-small text-text-muted">{t(dict, 'subscribe.frequency')}</p>
               <p className="text-small text-text-muted">{t(dict, 'subscribe.unsubscribe')}</p>
               <div
                 aria-disabled={!consent}

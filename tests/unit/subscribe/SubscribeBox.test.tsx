@@ -43,6 +43,12 @@ describe('C-09 SubscribeBox & submitSubscription', () => {
     render(<SubscribeBox lang="ko" dict={dict} topic="target_price" />);
 
     fireEvent.click(screen.getByRole('button', { name: '목표가 도달 메일 받기' }));
+    expect(screen.getByText(dict['subscribe.frequency'])).toBeInTheDocument();
+    expect(screen.getByText(dict['subscribe.unsubscribe'])).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: dict['footer.privacy'] })).toHaveAttribute(
+      'href',
+      expect.stringMatching(/^\/ko\/privacy\/?$/)
+    );
     expect(
       screen.getByText('동의에 체크하면 Google 계정으로 계속할 수 있어요.')
     ).toBeInTheDocument();

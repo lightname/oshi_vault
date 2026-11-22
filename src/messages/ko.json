@@ -38,6 +38,7 @@
   "subscribe.trackBody": "요청한 굿즈의 시세 추적 결과만 보내요.",
   "subscribe.trackCta": "시세 추적 요청 메일 받기",
   "subscribe.consent": "[필수] 위 내용의 이메일 수신과 개인정보처리방침에 동의해요.",
+  "subscribe.frequency": "시세 갱신 시 1회, 소식은 월 1회 이하로 보내요.",
   "subscribe.unsubscribe": "메일 하단 링크로 언제든 해지할 수 있어요.",
   "subscribe.needConsent": "동의에 체크하면 Google 계정으로 계속할 수 있어요.",
   "subscribe.sending": "등록하고 있어요",

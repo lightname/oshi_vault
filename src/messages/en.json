@@ -38,6 +38,7 @@
   "subscribe.trackBody": "We only email results for items you requested.",
   "subscribe.trackCta": "Email me when it's tracked",
   "subscribe.consent": "[Required] I agree to these emails and the privacy policy.",
+  "subscribe.frequency": "Sent once per price update, or at most once a month.",
   "subscribe.unsubscribe": "Unsubscribe anytime from the link in each email.",
   "subscribe.needConsent": "Check the box to continue with Google.",
   "subscribe.sending": "Subscribing",
