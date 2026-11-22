@@ -1,7 +1,7 @@
 <!-- PROGRESS.md -->
 
 ## 현재 상태
-진행 중: T-05 완료, 다음 T-06
+진행 중: T-06 완료, 다음 T-07
 
 ## 완료 티켓
 | 티켓 ID | 커밋 | 비고 |
@@ -10,7 +10,8 @@
 | T-02 | 22855e6 | S-00 언어 선택 루트 페이지 |
 | T-03 | 6f2a255 | S-15 404 정적 복구 페이지 |
 | T-04 | 0ac26e9 | S-02 IP 목록 페이지 |
-| T-05 | pending | S-03 IP 허브, 굿즈 카드, 프리미엄 배지, 관련 가이드 |
+| T-05 | 1375403 | S-03 IP 허브, 굿즈 카드, 프리미엄 배지, 관련 가이드 |
+| T-06 | pending | S-14 IP×품목유형 페이지 (L2+ 생성, L1 0건) |
 
 ## 가정
 | 티켓 ID | 모호했던 서술 | 선택한 해석 | 근거 |
@@ -18,6 +19,7 @@
 | T-01 | 원천 엑셀 경로가 루트 `Spark_메가IP굿즈.xlsx`로 존재하고 CONVENTIONS·CORE는 `data/source/mega-ip-goods.xlsx`를 참조함 | 원본 수정 없이 `Spark_메가IP굿즈.xlsx`를 `data/source/mega-ip-goods.xlsx`로 복사해 사용 | CONVENTIONS.md 폴더 구조 및 AGENTS.md 원본 수정 금지 규칙 준수 |
 | T-01 | 제공된 엑셀 파일에 `시세` 시트와 `IP슬러그·IP명(EN/JA)·상품명(EN/JA)·EN/JA검수` 열이 아직 없고 머리글에 괄호 안내가 포함됨 | `scripts/build-data.mjs`에서 괄호 접미사 무시 매칭, `시세` 시트 부재 시 빈 배열, `IP슬러그` 열 부재 시 원어명 라틴 문자열 기반 결정적 슬러그 생성(열이 추가되면 그대로 엄격 검증) | 엑셀 수정 금지 조건 하에 `npm run data` 및 향후 확장 스키마 양쪽을 지원 |
 | T-01 | `buildSeoManifest()`와 `seo:check`는 전체 화면을 검증하나 T-01 시점에는 S-01 임시 페이지만 존재 | `src/app/` 내 해당 `page.tsx` 파일 존재 여부를 기준으로 매니페스트·검사 대상에 자동 포함 | T-01 이후 공통 레이어 수정 금지 규칙을 지키면서 티켓별 점진적 검증 통과 |
+| T-06 | Next.js 16 `output: 'export'`는 동적 라우트의 `generateStaticParams()`가 빈 배열을 반환하면 빌드를 실패시킴 | L1(`combos.length === 0`)일 때 `_none/_none` 센티널 1건만 반환하고 페이지에서 `notFound()` 및 `noindex,nofollow`를 반환해 실제 S-14 경로·sitemap·매니페스트 항목 0건 유지 | Next.js 정적 내보내기 제약을 지키면서 L1 0건 색인·404 동작 보장 |
 
 ## 막힘
 | 티켓 ID | 시도한 것 | 오류 원문 | 막힌 지점 | 추정 원인 | 영향받는 티켓 |

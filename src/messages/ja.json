@@ -89,5 +89,8 @@
   "type.apparel": "アパレル・雑貨",
   "type.other": "その他",
   "meta.ipHub.title": "{ip} 限定グッズ 相場一覧",
-  "meta.ipHub.description": "{ip}の限定グッズ{n}件の定価と取引価格を比べられます。基準日 {date}。"
+  "meta.ipHub.description": "{ip}の限定グッズ{n}件の定価と取引価格を比べられます。基準日 {date}。",
+  "ip.typeH1": "{ip} {type}の相場",
+  "ip.typeLead": "{ip}の{type}の定価と取引価格を比べられます。",
+  "meta.ipType.description": "{ip}の{type}{n}件の定価と取引価格を比べられます。基準日 {date}。"
 }

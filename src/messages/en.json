@@ -89,5 +89,8 @@
   "type.apparel": "Apparel & goods",
   "type.other": "Other",
   "meta.ipHub.title": "{ip} limited merch prices",
-  "meta.ipHub.description": "Compare retail and sold prices for {n} {ip} limited items. Data as of {date}."
+  "meta.ipHub.description": "Compare retail and sold prices for {n} {ip} limited items. Data as of {date}.",
+  "ip.typeH1": "{ip} {type} prices",
+  "ip.typeLead": "Compare retail and sold prices for {ip} {type}.",
+  "meta.ipType.description": "Compare retail and sold prices for {n} {ip} {type}. Data as of {date}."
 }
