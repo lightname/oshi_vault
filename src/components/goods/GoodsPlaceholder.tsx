@@ -24,7 +24,7 @@ export function GoodsPlaceholder({ ipColor, ipInitial, type, size, label, classN
       <path
         d={PLACEHOLDER_SHAPES[type]}
         fill="none"
-        stroke="#FFFFFF"
+        stroke="var(--color-text-on-dark)"
         strokeWidth={4}
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -33,7 +33,7 @@ export function GoodsPlaceholder({ ipColor, ipInitial, type, size, label, classN
         x={50}
         y={86}
         textAnchor="middle"
-        fill="#FFFFFF"
+        fill="var(--color-text-on-dark)"
         fontSize={16}
         fontWeight={700}
       >

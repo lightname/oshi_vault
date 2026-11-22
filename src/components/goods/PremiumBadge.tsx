@@ -7,7 +7,7 @@ export function PremiumBadge({ ratio }: { ratio: number }) {
 
   if (rounded > 0) {
     return (
-      <span className="inline-flex h-[22px] items-center gap-[2px] rounded-(--radius-sm) bg-[#E8F3EC] px-[6px] text-label text-success tabular-nums">
+      <span className="inline-flex h-[22px] items-center gap-[2px] rounded-(--radius-sm) bg-success-tint px-[6px] text-label text-success tabular-nums">
         <Icon name="arrow-up-right" size={14} />
         <span>{label}</span>
       </span>
@@ -15,7 +15,7 @@ export function PremiumBadge({ ratio }: { ratio: number }) {
   }
   if (rounded < 0) {
     return (
-      <span className="inline-flex h-[22px] items-center gap-[2px] rounded-(--radius-sm) bg-[#F9E7E8] px-[6px] text-label text-danger tabular-nums">
+      <span className="inline-flex h-[22px] items-center gap-[2px] rounded-(--radius-sm) bg-danger-tint px-[6px] text-label text-danger tabular-nums">
         <Icon name="arrow-down-right" size={14} />
         <span>{label}</span>
       </span>

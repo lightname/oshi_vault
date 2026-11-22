@@ -5,9 +5,9 @@ type Tone = 'neutral' | 'selected' | 'warning' | 'success' | 'danger';
 const TONES: Record<Tone, string> = {
   neutral: 'bg-bg text-text-muted border border-border',
   selected: 'bg-secondary-tint text-secondary border border-secondary',
-  warning: 'bg-[#FBF0E4] text-warning',
-  success: 'bg-[#E8F3EC] text-success',
-  danger: 'bg-[#F9E7E8] text-danger',
+  warning: 'bg-warning-tint text-warning',
+  success: 'bg-success-tint text-success',
+  danger: 'bg-danger-tint text-danger',
 };
 
 type Props = {

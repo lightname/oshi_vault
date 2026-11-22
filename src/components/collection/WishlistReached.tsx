@@ -27,7 +27,7 @@ export function WishlistReached({ items, lang, dict }: Props) {
   if (items.length === 0) return null;
 
   return (
-    <section className="rounded-(--radius-lg) bg-success/10 p-(--space-5)">
+    <section className="rounded-(--radius-lg) bg-success-tint p-(--space-5)">
       <h2 className="flex items-center gap-(--space-2) text-h2 text-secondary">
         <Icon name="check" size={24} className="shrink-0 text-success" />
         <span>{t(dict, 'wish.reachedTitle', { n: items.length })}</span>
