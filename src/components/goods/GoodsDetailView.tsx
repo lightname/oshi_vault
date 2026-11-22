@@ -155,7 +155,7 @@ export function GoodsDetailView({
             <div className="grid grid-cols-3 gap-(--space-3) py-(--space-2)">
               <dt className="text-text-muted">{t(dict, 'goods.verified', { date: '' }).trim()}</dt>
               <dd className="col-span-2 text-text tabular-nums">
-                {t(dict, 'goods.verified', { date: formatDate(goods.verifiedAt, lang) })}
+                {formatDate(goods.verifiedAt, lang)}
               </dd>
             </div>
           </dl>
