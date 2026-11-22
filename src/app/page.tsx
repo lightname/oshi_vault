@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import Image from 'next/image';
 import rootMessages from '@/messages/root.json';
-import { getImage } from '@/lib/data/images';
+import { getBrandLogo, getImage } from '@/lib/data/images';
 import { inter } from '@/lib/i18n/fonts';
 import { organizationLd, websiteLd } from '@/lib/seo/jsonld';
 import { buildMetadata, ogPath } from '@/lib/seo/metadata';
@@ -69,7 +69,7 @@ export default function RootPage() {
             />
             <div className="mt-(--space-5) inline-flex items-center gap-(--space-2)">
               <Image
-                src="/images/brand/logo-symbol.svg"
+                src={getBrandLogo('default').src}
                 alt=""
                 width={40}
                 height={40}

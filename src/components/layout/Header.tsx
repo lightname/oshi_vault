@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { t, type Dict } from '@/lib/i18n/dictionary';
+import { getBrandLogo } from '@/lib/data/images';
 import type { Lang } from '@/lib/data/types';
 import { useUserData } from '@/lib/storage/useUserData';
 import { useCatalog } from '@/lib/data/catalogClient';
@@ -72,7 +73,7 @@ export function Header({ lang, dict, guideCount }: Props) {
       <div className="container-main flex h-[56px] items-center justify-between gap-(--space-4) lg:h-[64px]">
         <Link href={`/${lang}/`} className="inline-flex items-center gap-(--space-2) shrink-0">
           <Image
-            src="/images/brand/logo-symbol.svg"
+            src={getBrandLogo('default').src}
             alt=""
             width={32}
             height={32}
@@ -83,7 +84,7 @@ export function Header({ lang, dict, guideCount }: Props) {
           </span>
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-(--space-6) lg:flex">
+        <nav aria-label={t(dict, 'a11y.mainNav')} className="hidden items-center gap-(--space-6) lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -145,7 +146,7 @@ export function Header({ lang, dict, guideCount }: Props) {
               </span>
               <button
                 type="button"
-                aria-label="Close"
+                aria-label={t(dict, 'a11y.close')}
                 onClick={() => setDrawerOpen(false)}
                 className="inline-flex h-[44px] w-[44px] items-center justify-center rounded-(--radius-md) text-text hover:bg-secondary-tint"
               >

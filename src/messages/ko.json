@@ -287,5 +287,9 @@
   "calc.howTitle": "계산 방식",
   "calc.howBody": "두 가격을 같은 통화로 바꾼 뒤 비교해요. 수수료와 배송비는 포함하지 않아요.",
   "calc.invalid": "0보다 큰 숫자를 입력하세요.",
-  "meta.calc.description": "정가와 거래가를 넣으면 리셀 프리미엄과 차액을 엔·원·달러로 계산해요."
+  "meta.calc.description": "정가와 거래가를 넣으면 리셀 프리미엄과 차액을 엔·원·달러로 계산해요.",
+  "a11y.mainNav": "주 메뉴",
+  "a11y.close": "닫기",
+  "a11y.breadcrumb": "현재 위치",
+  "a11y.loading": "불러오는 중"
 }

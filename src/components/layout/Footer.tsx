@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { anyAffiliate } from '@/lib/affiliate/marketLink';
+import { getBrandLogo } from '@/lib/data/images';
 import { t, type Dict } from '@/lib/i18n/dictionary';
 import type { Lang } from '@/lib/data/types';
 import { LanguageSelect } from './LanguageSelect';
@@ -22,7 +23,7 @@ export function Footer({ lang, dict, guideCount, year }: Props) {
           <div>
             <div className="flex items-center gap-(--space-2)">
               <Image
-                src="/images/brand/logo-symbol-mono.svg"
+                src={getBrandLogo('mono').src}
                 alt=""
                 width={32}
                 height={32}

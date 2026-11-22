@@ -109,7 +109,7 @@ export function GoodsActions({ goodsId, lang, dict }: Props) {
               />
             </label>
             <select
-              aria-label="Currency"
+              aria-label={t(dict, 'calc.currency')}
               value={currency}
               onChange={(e) => setCurrency(e.target.value as Currency)}
               className="h-[48px] rounded-(--radius-md) border border-border bg-surface px-(--space-3) text-body"

@@ -42,7 +42,7 @@ export function IpHubHeader({
 
   return (
     <>
-      <Breadcrumb items={crumbs} />
+      <Breadcrumb items={crumbs} label={t(dict, 'a11y.breadcrumb')} />
 
       <section className="grid grid-cols-1 items-center gap-(--space-6) md:grid-cols-12">
         <div className="md:col-span-8">

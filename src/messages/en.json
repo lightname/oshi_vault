@@ -287,5 +287,9 @@
   "calc.howTitle": "How it's calculated",
   "calc.howBody": "Both prices are converted to one currency. Fees and shipping are excluded.",
   "calc.invalid": "Enter a number greater than 0.",
-  "meta.calc.description": "Enter retail and sold prices to calculate the resale premium and difference in yen, won, or dollars."
+  "meta.calc.description": "Enter retail and sold prices to calculate the resale premium and difference in yen, won, or dollars.",
+  "a11y.mainNav": "Main navigation",
+  "a11y.close": "Close",
+  "a11y.breadcrumb": "Breadcrumb",
+  "a11y.loading": "Loading"
 }

@@ -287,5 +287,9 @@
   "calc.howTitle": "計算方法",
   "calc.howBody": "2つの価格を同じ通貨に換算して比べます。手数料と送料は含みません。",
   "calc.invalid": "0より大きい数字を入力してください。",
-  "meta.calc.description": "定価と取引価格を入れるとプレ値率と差額を円・ウォン・ドルで計算します。"
+  "meta.calc.description": "定価と取引価格を入れるとプレ値率と差額を円・ウォン・ドルで計算します。",
+  "a11y.mainNav": "メインナビゲーション",
+  "a11y.close": "閉じる",
+  "a11y.breadcrumb": "パンくずリスト",
+  "a11y.loading": "読み込み中"
 }

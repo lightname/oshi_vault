@@ -12,3 +12,12 @@ export function getImage(id: ImageId, lang: Lang): {
   const m = manifest[id];
   return { src: m.src, width: m.width, height: m.height, alt: m.alt[lang] };
 }
+
+const BRAND_LOGO = {
+  default: { src: '/images/brand/logo-symbol.svg', width: 64, height: 64, alt: '' },
+  mono: { src: '/images/brand/logo-symbol-mono.svg', width: 64, height: 64, alt: '' },
+} as const;
+
+export function getBrandLogo(variant: keyof typeof BRAND_LOGO = 'default') {
+  return BRAND_LOGO[variant];
+}

@@ -26,6 +26,7 @@ export function LegalView({ lang, dict, doc }: Props) {
   return (
     <div className="container-main py-(--space-7)">
       <Breadcrumb
+        label={t(dict, 'a11y.breadcrumb')}
         items={[
           { label: t(dict, 'breadcrumb.home'), href: `/${lang}/` },
           { label: doc.title },

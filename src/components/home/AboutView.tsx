@@ -22,6 +22,7 @@ export function AboutView({ lang, dict, marketsLabel, goodsCount }: Props) {
   return (
     <div className="container-main py-(--space-7)">
       <Breadcrumb
+        label={t(dict, 'a11y.breadcrumb')}
         items={[
           { label: t(dict, 'breadcrumb.home'), href: `/${lang}/` },
           { label: t(dict, 'about.h1') },

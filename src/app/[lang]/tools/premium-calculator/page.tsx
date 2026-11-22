@@ -77,6 +77,7 @@ export default async function PremiumCalculatorPage({
 
       <div className="container-main py-(--space-7)">
         <Breadcrumb
+          label={t(dict, 'a11y.breadcrumb')}
           items={[
             { label: t(dict, 'breadcrumb.home'), href: `/${lang}/` },
             { label: t(dict, 'calc.h1') },

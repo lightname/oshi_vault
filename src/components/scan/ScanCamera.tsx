@@ -98,7 +98,7 @@ export function ScanCamera({ lang, dict, hasResult, onDetected, onFocusManual }:
       {status === 'loading' ? (
         <span
           role="status"
-          aria-label="loading"
+          aria-label={t(dict, 'a11y.loading')}
           className="inline-block h-[32px] w-[32px] animate-spin rounded-(--radius-full) border-4 border-text-on-dark-muted border-t-text-on-dark"
         />
       ) : null}

@@ -3,9 +3,9 @@ import { Icon } from './icons';
 
 export type Crumb = { label: string; href?: string };
 
-export function Breadcrumb({ items }: { items: Crumb[] }) {
+export function Breadcrumb({ items, label }: { items: Crumb[]; label: string }) {
   return (
-    <nav aria-label="Breadcrumb" className="mb-(--space-4)">
+    <nav aria-label={label} className="mb-(--space-4)">
       <ol className="flex flex-wrap items-center gap-(--space-1) text-small text-text-muted">
         {items.map((item, idx) => {
           const last = idx === items.length - 1;

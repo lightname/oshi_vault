@@ -1,5 +1,5 @@
 import { config } from '@/config';
-import { getImage } from '@/lib/data/images';
+import { getBrandLogo, getImage } from '@/lib/data/images';
 import { PLACEHOLDER_SHAPES } from '@/lib/data/placeholderShapes';
 import type { GoodsType, Lang } from '@/lib/data/types';
 
@@ -172,7 +172,7 @@ export async function renderCard(canvas: HTMLCanvasElement, input: ShareCardInpu
   if (input.watermark) {
     const host = new URL(config.site.url).host;
     try {
-      const logo = await loadImage('/images/brand/logo-symbol-mono.svg');
+      const logo = await loadImage(getBrandLogo('mono').src);
       ctx.drawImage(logo, W - 64 - 40, 1185, 40, 40);
     } catch {
       // Skip logo if unavailable
