@@ -54,6 +54,13 @@ describe('S-04 GoodsDetailView & static params', () => {
     fireEvent.change(targetInput, { target: { value: '50000' } });
     fireEvent.click(screen.getByRole('button', { name: '목표가 저장하기' }));
     expect(getSnapshot().doc.wishlist[0].targetPrice).toBe(50000);
+    expect(getSnapshot().doc.wishlist[0].currency).toBe('KRW');
+
+    fireEvent.change(screen.getByRole('combobox'), { target: { value: 'USD' } });
+    fireEvent.change(targetInput, { target: { value: '40' } });
+    fireEvent.click(screen.getByRole('button', { name: '목표가 저장하기' }));
+    expect(getSnapshot().doc.wishlist[0].targetPrice).toBe(40);
+    expect(getSnapshot().doc.wishlist[0].currency).toBe('USD');
   });
 
   it('renders collecting state with search buttons when price data is absent', () => {

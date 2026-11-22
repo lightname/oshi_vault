@@ -118,10 +118,14 @@ export function addToWishlist(goodsId: string, currency: Currency): void {
   });
 }
 
-export function setTarget(goodsId: string, price: number | null): void {
+export function setTarget(goodsId: string, price: number | null, currency?: Currency): void {
   update((d) => ({
     ...d,
-    wishlist: d.wishlist.map((w) => (w.goodsId === goodsId ? { ...w, targetPrice: price } : w)),
+    wishlist: d.wishlist.map((w) =>
+      w.goodsId === goodsId
+        ? { ...w, targetPrice: price, ...(currency ? { currency } : {}) }
+        : w
+    ),
   }));
 }
 

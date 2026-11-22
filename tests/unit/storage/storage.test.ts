@@ -76,6 +76,10 @@ describe('user data storage (C-32)', () => {
     expect(getSnapshot().doc.wishlist).toHaveLength(1);
     setTarget('PKM-0001', 50000);
     expect(getSnapshot().doc.wishlist[0].targetPrice).toBe(50000);
+    expect(getSnapshot().doc.wishlist[0].currency).toBe('KRW');
+    setTarget('PKM-0001', 40, 'USD');
+    expect(getSnapshot().doc.wishlist[0].targetPrice).toBe(40);
+    expect(getSnapshot().doc.wishlist[0].currency).toBe('USD');
     setTarget('OTHER', 1000);
     removeWish('PKM-0001');
     expect(getSnapshot().doc.wishlist).toHaveLength(0);

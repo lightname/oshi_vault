@@ -44,10 +44,11 @@ export function GoodsActions({ goodsId, lang, dict }: Props) {
       addToWishlist(goodsId, currency);
       track('wishlist_add', { goods_id: goodsId });
       setToast({ msg: t(dict, 'toast.addedWish'), href: `/${lang}/wishlist/` });
-    }
-    if (wish?.targetPrice !== null && wish?.targetPrice !== undefined && !targetInput) {
-      setTargetInput(String(wish.targetPrice));
+    } else if (wish && !panelOpen) {
       setCurrency(wish.currency);
+      if (wish.targetPrice !== null && !targetInput) {
+        setTargetInput(String(wish.targetPrice));
+      }
     }
     setPanelOpen(true);
   };
@@ -62,7 +63,7 @@ export function GoodsActions({ goodsId, lang, dict }: Props) {
     }
     setTargetError(false);
     addToWishlist(goodsId, currency);
-    setTarget(goodsId, num);
+    setTarget(goodsId, num, currency);
     setToast({ msg: t(dict, 'toast.addedWish'), href: `/${lang}/wishlist/` });
   };
 
