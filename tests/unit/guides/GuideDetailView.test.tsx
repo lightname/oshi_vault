@@ -2,8 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
-import { render, screen } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { fireEvent, render, screen } from '@testing-library/react';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { config } from '@/config';
+import { setConsent } from '@/lib/analytics/consent';
 import type { Guide } from '@/lib/content/content';
 import { getImage } from '@/lib/data/images';
 import { getDictionary } from '@/lib/i18n/dictionary';
@@ -119,6 +121,60 @@ describe('S-11 GuideDetailView & routing', () => {
       />
     );
     expect(screen.getAllByRole('link', { name: /Mercari에서 매물 보기/ }).length).toBe(2);
+  });
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    vi.restoreAllMocks();
+    window.localStorage.clear();
+    delete window.gtag;
+    (config.analytics as { ga4Id: string }).ga4Id = '';
+    (config.api as { mode: 'mock' | 'live' }).mode = 'mock';
+    (config.google as { clientId: string }).clientId = '';
+  });
+
+  it('fires guide_cta_click only on actual CTA clicks, not container or checkbox clicks', () => {
+    const gtag = vi.fn();
+    window.gtag = gtag;
+    vi.stubEnv('NODE_ENV', 'production');
+    (config.analytics as { ga4Id: string }).ga4Id = 'G-TEST';
+    (config.api as { mode: 'mock' | 'live' }).mode = 'live';
+    (config.google as { clientId: string }).clientId = 'client-1';
+    setConsent('granted');
+    Object.defineProperty(window, 'location', {
+      value: { hostname: 'oshivault.example', pathname: '/ko/guides/sample-guide/' },
+      configurable: true,
+    });
+    document.body.dataset.screen = 'S-11';
+
+    const base = loadFixtureGuide('sample-guide');
+    render(
+      <GuideDetailView
+        lang="ko"
+        dict={dict}
+        guide={{ ...base, endCta: 'secondary' }}
+        cover={getImage('IMG-13', 'ko')}
+        slotGoods={slotGoods}
+        primaryIp={fixtureIps[0]}
+        relatedGoods={[]}
+        relatedIps={[]}
+        otherGuides={[]}
+      />
+    );
+
+    // Click non-CTA text inside Slot A and Slot B -> 0 guide_cta_click
+    fireEvent.click(screen.getByText(dict['subscribe.targetTitle']));
+    expect(gtag.mock.calls.filter((c) => c[1] === 'guide_cta_click')).toHaveLength(0);
+
+    // Click actual CTA in Slot A -> 1 primary
+    fireEvent.click(screen.getByRole('link', { name: /Mercari에서 매물 보기/ }));
+    expect(gtag.mock.calls.filter((c) => c[1] === 'guide_cta_click')).toHaveLength(1);
+
+    // Click stage-1 CTA in Slot B -> 1 secondary; then checkbox click -> still 2 total
+    fireEvent.click(screen.getByRole('button', { name: dict['cta.secondary'] }));
+    expect(gtag.mock.calls.filter((c) => c[1] === 'guide_cta_click')).toHaveLength(2);
+    fireEvent.click(screen.getByRole('checkbox'));
+    expect(gtag.mock.calls.filter((c) => c[1] === 'guide_cta_click')).toHaveLength(2);
   });
 
   it('marks reviewed=false as noindex and does not generate missing slugs', () => {

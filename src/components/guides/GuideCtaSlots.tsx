@@ -39,11 +39,10 @@ export function GuideSlotA({
   if (items.length === 0) return null;
   const showAffiliate = anyAffiliate();
 
+  const onPrimaryClick = () => track('guide_cta_click', { guide_slug: slug, cta: 'primary' });
+
   return (
-    <div
-      className="my-(--space-6) space-y-(--space-4)"
-      onClick={() => track('guide_cta_click', { guide_slug: slug, cta: 'primary' })}
-    >
+    <div className="my-(--space-6) space-y-(--space-4)">
       {showAffiliate ? <p className="text-small text-text-muted">{t(dict, 'footer.affiliate')}</p> : null}
       <div className="grid grid-cols-1 gap-(--space-4)">
         {items.slice(0, 2).map(({ goods, ip, current }, idx) => {
@@ -69,6 +68,7 @@ export function GuideSlotA({
                   <p className="text-label text-text-muted">{ip.name[lang]}</p>
                   <Link
                     href={goodsPath(lang, goods)}
+                    onClick={onPrimaryClick}
                     className="mt-(--space-1) block text-h4 text-secondary hover:underline"
                   >
                     {displayName}
@@ -93,6 +93,7 @@ export function GuideSlotA({
                   dict={dict}
                   markets={current.markets.slice(0, 1)}
                   primaryFirst={idx === 0}
+                  onCtaClick={onPrimaryClick}
                 />
               </div>
             </div>
@@ -127,11 +128,14 @@ export function GuideSlotB({
       .filter((w) => w.targetPrice !== null)
       .map((w) => ({ goodsId: w.goodsId, targetPrice: w.targetPrice!, currency: w.currency }));
     return (
-      <div
-        className="my-(--space-6)"
-        onClick={() => track('guide_cta_click', { guide_slug: slug, cta: 'secondary' })}
-      >
-        <SubscribeBox lang={lang} dict={dict} topic="target_price" watches={watches} />
+      <div className="my-(--space-6)">
+        <SubscribeBox
+          lang={lang}
+          dict={dict}
+          topic="target_price"
+          watches={watches}
+          onCtaClick={() => track('guide_cta_click', { guide_slug: slug, cta: 'secondary' })}
+        />
       </div>
     );
   }

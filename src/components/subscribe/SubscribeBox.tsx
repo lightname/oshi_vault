@@ -24,9 +24,10 @@ type Props = {
   topic: SubscribeTopic;
   watches?: SubscribeWatch[];
   requests?: SubscribeRequest[];
+  onCtaClick?: () => void;
 };
 
-export function SubscribeBox({ lang, dict, topic, watches = [], requests = [] }: Props) {
+export function SubscribeBox({ lang, dict, topic, watches = [], requests = [], onCtaClick }: Props) {
   const user = useUserData();
   const [phase, setPhase] = useState<'collapsed' | 'expanded' | 'sending' | 'success' | 'error'>(
     'collapsed'
@@ -108,6 +109,7 @@ export function SubscribeBox({ lang, dict, topic, watches = [], requests = [] }:
                 variant="secondary"
                 onClick={() => {
                   track('subscribe_cta_click', { topic });
+                  onCtaClick?.();
                   setPhase('expanded');
                 }}
               >

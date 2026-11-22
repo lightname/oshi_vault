@@ -21,9 +21,10 @@ type Props = {
   dict: Dict;
   markets: PriceSnapshot[];
   primaryFirst?: boolean;
+  onCtaClick?: () => void;
 };
 
-export function MarketButtons({ goods, lang, dict, markets, primaryFirst = true }: Props) {
+export function MarketButtons({ goods, lang, dict, markets, primaryFirst = true, onCtaClick }: Props) {
   const showAffiliate = anyAffiliate();
   const hasPrices = markets.length > 0;
 
@@ -34,6 +35,7 @@ export function MarketButtons({ goods, lang, dict, markets, primaryFirst = true 
       market,
       has_affiliate: hasAffiliate(market),
     });
+    onCtaClick?.();
   };
 
   return (
