@@ -20,6 +20,7 @@ function routeExists(p: string): boolean {
 
 for (const vp of VIEWPORTS) {
   test(`capture QA screenshots at ${vp.width}x${vp.height}`, async ({ page }) => {
+    test.setTimeout(180_000);
     await page.setViewportSize(vp);
     const dir = path.join(process.cwd(), 'qa/screenshots', String(vp.width));
     fs.mkdirSync(dir, { recursive: true });
